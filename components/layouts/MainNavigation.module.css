@@ -1,17 +1,17 @@
 .header {
+  margin: 3rem auto;
+  max-width: 60%;
   font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 600;
-  width: 50%;
-  height: 5rem;
+  height: 2rem;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   background-color: #f2f6ff;
-  padding: 0 10%;
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 1rem;
   color: #110e38;
   font-weight: bold;
 }
