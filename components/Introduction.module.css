@@ -1,20 +1,30 @@
 .row {
   display: flex;
   padding-bottom: 220px;
+  align-items: center;
 }
 
-.column {
+.column_left {
   font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
   flex: 50%;
   padding-top: 60px;
-  padding-right: 30px;
+  padding-right: 0px;
+  text-align: left;
+}
+.column_right {
+  font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+  flex: 50%;
+  padding-top: 60px;
+  padding-left: 150px;
   text-align: left;
 }
 
 .img {
-  padding-left: 20%;
-  width: 500px;
+  width: 480px;
+  height: 480px;
+  overflow: hidden;
   border-radius: 50px;
+  box-shadow: 0 100px 80px rgb(20 149 167 / 7%), 0 41.7776px 33.4221px rgb(20 149 167 / 5%), 0 22.3363px 17.869px rgb(20 149 167 / 4%), 0 12.5216px 10.0172px rgb(20 149 167 / 4%), 0 6.6501px 5.32008px rgb(20 149 167 / 3%), 0 2.76726px 2.21381px rgb(20 149 167 / 2%);
 }
 
 .hero_title {

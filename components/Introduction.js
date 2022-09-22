@@ -6,7 +6,7 @@ import padam from "../assets/padam.png";
 const Introduction = () => {
   return (
     <div className={classes.row}>
-      <div className={classes.column}>
+      <div className={classes.column_left}>
         <h1 className={classes.hero_title}>Hi there, I am Padam Karki</h1>
         <p className={classes.hero_desc}>
           <strong>Frontend Developer</strong> and{" "}
@@ -22,7 +22,7 @@ const Introduction = () => {
           <a className={`${classes.btn} ${classes["btn-4"]}`}>See my work</a>
         </Link>
       </div>
-      <div className={classes.column}>
+      <div className={classes.column_right}>
         <div className={classes.img}>
           <Image
             src={padam}
