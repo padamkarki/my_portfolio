@@ -1,0 +1,50 @@
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #1495a7 0, #003687 167%);
+  align-items: center;
+}
+
+.footer ul {
+  list-style: none;
+
+  display: flex;
+  font-weight: 600;
+}
+
+.footer li {
+  margin-left: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.footer a:hover,
+.footer a:active,
+.footer a.active {
+  color: #8f8da6;
+}
+
+.table {
+  display: table; /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+.copyright {
+  font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+.year {
+  font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: rgb(205, 205, 205);
+}
