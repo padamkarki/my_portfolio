@@ -5,12 +5,6 @@
   display: block;
 }
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .overlay {
   position: absolute;
   bottom: 0;
@@ -28,4 +22,27 @@
 
 .container:hover .overlay {
   opacity: 1;
+}
+
+.work_img {
+  width: 480px;
+  height: 480px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.h2_hero_title {
+  color: #110e38;
+  font-size: 35px;
+  margin-bottom: 24px;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+.h2_hero_desc {
+  max-width: 28%;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  padding-bottom: 40px;
 }

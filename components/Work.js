@@ -7,8 +7,8 @@ import classes from "./Work.module.css";
 const Work = () => {
   return (
     <div>
-      <h2>Latest Works</h2>
-      <p>
+      <h2 className={classes.h2_hero_title}>Latest Works</h2>
+      <p className={classes.h2_hero_desc}>
         I show only my best works built completely with passion, simplicity, and
         creativity!
       </p>
