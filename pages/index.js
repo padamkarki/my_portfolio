@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import Introduction from "../components/Introduction";
+import Reviews from "../components/Reviews";
 import Work from "../components/Work";
 
 const HomePage = () => {
@@ -7,6 +8,7 @@ const HomePage = () => {
     <Fragment>
       <Introduction />
       <Work />
+      <Reviews />
     </Fragment>
   );
 };
