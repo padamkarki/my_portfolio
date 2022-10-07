@@ -1,0 +1,40 @@
+.form_title {
+  color: #110e38;
+  font-size: 50px;
+  margin-bottom: 24px;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  flex: 1 1 auto;
+  padding: 15px 40px 15px 40px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 18px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-4 {
+  background-image: linear-gradient(
+    to right,
+    #005b9c -50%,
+    #8ccfee 0%,
+    #005b9c 100%
+  );
+}
+
+.form {
+  display: flex;
+  align-content: center;
+}
