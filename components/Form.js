@@ -3,10 +3,10 @@ import classes from "./Form.module.css";
 const Form = () => {
   return (
     <>
-      <div className="form">
+      <div className={classes.form}>
         <div>
           <h1 className={classes.form_title}>Get in touch</h1>
-          <p>
+          <p className={classes.description}>
             Write a message below and I will get back to you as soon as
             possible.
           </p>
@@ -15,6 +15,7 @@ const Form = () => {
           <div>
             <label htmlFor="name"></label>
             <input
+              className={classes.input}
               type="text"
               id="name"
               name="name"
@@ -24,6 +25,7 @@ const Form = () => {
           <div>
             <label htmlFor="email"></label>
             <input
+              className={classes.input}
               type="email"
               id="email"
               name="email"
@@ -33,6 +35,7 @@ const Form = () => {
           <div>
             <label htmlFor="message"></label>
             <textarea
+              className={classes.input}
               type="textarea"
               id="message"
               name="message"
