@@ -1,25 +1,12 @@
 .work_card {
-  position: relative;
-  width: 50%;
-  display: block;
-  align-items: center;
-}
-
-.work_info {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1;
-  width: 100%;
-  transition: 0.5s ease;
-  opacity: 0;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
+  display: inline-block;
+  flex: 1 1 auto;
   text-align: center;
 }
 
-.work_card:hover .work_info {
-  opacity: 1;
+.work_img {
+  object-fit: cover;
+}
+.work_card:hover {
+  background-position: right center; /* change the direction of the change here */
 }

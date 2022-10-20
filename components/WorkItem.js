@@ -4,19 +4,18 @@ import Card from "./UI/Card";
 
 const WorkItem = (props) => {
   return (
-    <Card>
-      <article className={classes.work_card}>
-        <div>
-          <Image
-            src={props.img}
-            alt={props.imgAlt}
-            width={300}
-            height={400}
-          ></Image>
-        </div>
-        <div>{props.imgInfo}</div>
-      </article>
-    </Card>
+    <>
+      <Card className={classes.work_card}>
+        <Image
+          className={classes.work_img}
+          src={props.img}
+          alt={props.imgAlt}
+          width={320}
+          height={400}
+        ></Image>
+        <div className={classes.work_info}>{props.imgInfo}</div>
+      </Card>
+    </>
   );
 };
 export default WorkItem;

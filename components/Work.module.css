@@ -13,3 +13,10 @@
   line-height: 1.6;
   padding-bottom: 40px;
 }
+.work_container {
+  display: flex;
+  padding-bottom: 220px;
+  align-items: center;
+  justify-content: center;
+  max-width: fit-content;
+}
