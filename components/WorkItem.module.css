@@ -1,12 +1,11 @@
-.work_card {
-  display: inline-block;
-  flex: 1 1 auto;
-  text-align: center;
-}
+/* .work_card {
+  width: 33.33%;
+} */
 
 .work_img {
   object-fit: cover;
 }
-.work_card:hover {
-  background-position: right center; /* change the direction of the change here */
-}
+
+/* .work_card:hover {
+  background-position: right center;
+} */
