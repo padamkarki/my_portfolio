@@ -1,0 +1,20 @@
+.review_container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.review_card {
+  display: flex;
+  color: white;
+  text-align: center;
+  background: linear-gradient(90deg, #1cb5e0 0%, #002751 100%);
+  width: 300px;
+  height: 350px;
+  padding: 1rem;
+}
+
+.review_img {
+  border-radius: 50%;
+  object-fit: cover;
+}
