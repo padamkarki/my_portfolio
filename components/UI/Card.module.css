@@ -1,7 +1,10 @@
 .card {
+  font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
   object-fit: cover;
+  /* width: inherit;
+  height: inherit; */
   width: 350px;
-  height: 400px;
+  height: inherit;
   /* margin: 1rem; */
   overflow: hidden;
   border-radius: 20px;

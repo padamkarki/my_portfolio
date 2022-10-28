@@ -1,18 +1,19 @@
 import Card from "./UI/Card";
 import Image from "next/future/image";
-import classes from "./WorkItem.module.css";
+import classes from "./ReviewItem.module.css";
 
 const ReviewItem = (props) => {
   return (
     <Card>
-      <div className={classes.work_card}>
+      <div className={classes.review_card}>
         <div>
           <div>
             <Image
+              className={classes.review_img}
               src={props.img}
               alt={props.imgAlt}
-              width={80}
-              height={80}
+              width={100}
+              height={100}
             ></Image>
           </div>
           <div>

@@ -1,11 +1,8 @@
-/* .work_card {
-  width: 33.33%;
-} */
-
 .work_img {
   object-fit: cover;
 }
 
-/* .work_card:hover {
-  background-position: right center;
-} */
+.size {
+  height: 400px;
+  width: 350px;
+}

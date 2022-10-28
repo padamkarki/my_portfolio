@@ -1,10 +1,11 @@
 import { Fragment } from "react";
 import ReviewItem from "./ReviewItem";
-import styles from "./Work.module.css";
 import sunit from "../assets/sunit.jpg";
 import vikram from "../assets/vikram.jpg";
 import ganesh from "../assets/ganesh.jpg";
 import priyanka from "../assets/priyanka.jpg";
+import styles from "./Work.module.css";
+import classes from "./ReviewItem.module.css";
 
 const Reviews = (props) => {
   const clients = [
@@ -47,37 +48,41 @@ const Reviews = (props) => {
     },
   ];
   return (
-    <Fragment>
-      <h2 className={styles.h2_hero_title}>Happy Clients</h2>
-      <ReviewItem
-        img={clients[0].img}
-        imgAlt={clients[0].imgAlt}
-        clientName={clients[0].clientName}
-        clientField={clients[0].clientField}
-        clientReview={clients[0].clientReview}
-      />
-      <ReviewItem
-        img={clients[1].img}
-        imgAlt={clients[1].imgAlt}
-        clientName={clients[1].clientName}
-        clientField={clients[1].clientField}
-        clientReview={clients[1].clientReview}
-      />
-      <ReviewItem
-        img={clients[2].img}
-        imgAlt={clients[2].imgAlt}
-        clientName={clients[2].clientName}
-        clientField={clients[2].clientField}
-        clientReview={clients[2].clientReview}
-      />
-      <ReviewItem
-        img={clients[3].img}
-        imgAlt={clients[3].imgAlt}
-        clientName={clients[3].clientName}
-        clientField={clients[3].clientField}
-        clientReview={clients[3].clientReview}
-      />
-    </Fragment>
+    <>
+      <div>
+        <h2 className={styles.h2_hero_title}>Happy Clients</h2>
+        <div className={classes.review_container}>
+          <ReviewItem
+            img={clients[0].img}
+            imgAlt={clients[0].imgAlt}
+            clientName={clients[0].clientName}
+            clientField={clients[0].clientField}
+            clientReview={clients[0].clientReview}
+          />
+          <ReviewItem
+            img={clients[1].img}
+            imgAlt={clients[1].imgAlt}
+            clientName={clients[1].clientName}
+            clientField={clients[1].clientField}
+            clientReview={clients[1].clientReview}
+          />
+          <ReviewItem
+            img={clients[2].img}
+            imgAlt={clients[2].imgAlt}
+            clientName={clients[2].clientName}
+            clientField={clients[2].clientField}
+            clientReview={clients[2].clientReview}
+          />
+          <ReviewItem
+            img={clients[3].img}
+            imgAlt={clients[3].imgAlt}
+            clientName={clients[3].clientName}
+            clientField={clients[3].clientField}
+            clientReview={clients[3].clientReview}
+          />
+        </div>
+      </div>
+    </>
   );
 };
 

@@ -5,7 +5,7 @@ import Card from "./UI/Card";
 const WorkItem = (props) => {
   return (
     <>
-      <Card className={classes.work_card}>
+      <Card className={classes.size}>
         <Image
           className={classes.work_img}
           src={props.img}
@@ -13,7 +13,7 @@ const WorkItem = (props) => {
           width={350}
           height={400}
         ></Image>
-        <div className={classes.work_info}>{props.imgInfo}</div>
+        <div>{props.imgInfo}</div>
       </Card>
     </>
   );
