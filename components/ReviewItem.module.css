@@ -1,20 +1,46 @@
-.review_container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-}
-
 .review_card {
   display: flex;
   color: white;
   text-align: center;
   background: linear-gradient(90deg, #1cb5e0 0%, #002751 100%);
-  width: 300px;
-  height: 350px;
-  padding: 1rem;
+  width: 350px;
+  height: 300px;
+  padding: 1em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.h2_hero_title {
+  color: #110e38;
+  font-size: 35px;
+  margin-bottom: 24px;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: -1px;
 }
 
 .review_img {
-  border-radius: 50%;
+  border-radius: 30%;
   object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.client_name {
+  font-weight: 900;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+.client_field {
+  font-size: 15px;
+  color: antiquewhite;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+.client_review {
+  font-size: 15px;
+  color: antiquewhite;
+  margin-right: 1em;
+  margin-left: 1em;
 }
