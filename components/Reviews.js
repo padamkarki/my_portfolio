@@ -82,8 +82,6 @@ function SamplePrevArrow(props) {
       style={{
         ...style,
         display: "block",
-        boxShadow: "1px 2px 9px #F4AAB9",
-        borderRadius: "50%",
       }}
       onClick={onClick}
     />
