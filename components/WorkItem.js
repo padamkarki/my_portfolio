@@ -10,7 +10,7 @@ const WorkItem = (props) => {
           className={classes.work_img}
           src={props.img}
           alt={props.imgAlt}
-          width={350}
+          width={380}
           height={400}
         ></Image>
         <div>{props.imgInfo}</div>
