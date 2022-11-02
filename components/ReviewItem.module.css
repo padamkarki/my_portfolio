@@ -1,13 +1,14 @@
 .review_card {
-  display: flex;
   color: white;
   text-align: center;
-  background: linear-gradient(90deg, #1cb5e0 0%, #002751 100%);
-  width: 350px;
-  height: 300px;
+  /* background: linear-gradient(90deg, #1cb5e0 0%, #002751 100%); */
+  background: linear-gradient(90deg, #1495a7 0, #003687 167%);
   padding: 1em;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-sizing: border-box;
+  align-items: center;
 }
+
 .h2_hero_title {
   color: #110e38;
   font-size: 35px;
@@ -21,6 +22,7 @@
   border-radius: 30%;
   object-fit: cover;
   display: block;
+  margin-top: 3%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -33,14 +35,16 @@
 
 .client_field {
   font-size: 15px;
-  color: antiquewhite;
+  color: white;
+  opacity: 0.7;
   margin-top: 0;
   margin-bottom: 2em;
 }
 
 .client_review {
   font-size: 15px;
-  color: antiquewhite;
+  line-height: 1.6;
+  color: white;
   margin-right: 1em;
   margin-left: 1em;
 }

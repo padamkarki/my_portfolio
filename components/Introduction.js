@@ -1,6 +1,6 @@
 import classes from "./Introduction.module.css";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/future/image";
 import padam from "../assets/padam.png";
 
 const Introduction = () => {
@@ -23,16 +23,13 @@ const Introduction = () => {
         </Link>
       </div>
       <div className={classes.column_right}>
-        <div className={classes.img}>
-          <Image
-            src={padam}
-            alt="Padam"
-            layout="fixed"
-            objectFit="cover"
-            width="500"
-            height="500"
-          ></Image>
-        </div>
+        <Image
+          className={classes.img}
+          src={padam}
+          alt="Padam"
+          width={500}
+          height={500}
+        ></Image>
       </div>
     </div>
   );

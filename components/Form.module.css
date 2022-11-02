@@ -40,9 +40,11 @@
 }
 
 .btn {
+  font-size: 18px;
+  padding: 15px 30px;
+  font-weight: 900;
   display: inline-block;
   flex: 1 1 auto;
-  padding: 15px 40px 15px 40px;
   text-align: center;
   transition: 0.3s;
   background-size: 200% auto;
@@ -53,12 +55,7 @@
 }
 
 .btn-4 {
-  background-image: linear-gradient(
-    to right,
-    #005b9c -50%,
-    #8ccfee 0%,
-    #005b9c 100%
-  );
+  background-image: linear-gradient(90deg, #1495a7 0, #003687 167%);
 }
 
 .btn:hover {

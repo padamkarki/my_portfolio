@@ -1,26 +1,22 @@
 .row {
+  font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
   display: flex;
   padding: 96px 0;
   align-items: center;
-  justify-content: center;
-  max-width: fit-content;
+  /* justify-content: center; */
 }
 
 .column_left {
-  font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
-  flex: 50%;
+  flex: 30%;
   text-align: left;
 }
 .column_right {
-  font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
-  flex: 50%;
-  padding-left: 15%;
-  text-align: left;
+  flex: auto;
 }
 
 .img {
-  width: 480px;
-  height: 480px;
+  float: right;
+  object-fit: cover;
   overflow: hidden;
   border-radius: 50px;
   box-shadow: 0 100px 80px rgb(20 149 167 / 7%),
@@ -33,25 +29,28 @@
 
 .hero_title {
   color: #110e38;
-  font-size: 50px;
+  font-size: 60px;
   margin-bottom: 24px;
   font-weight: 900;
   line-height: 1.2;
-  letter-spacing: -1px;
+  letter-spacing: -5px;
+  align-items: center;
 }
 .hero_desc {
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   padding-bottom: 40px;
 }
 
 .btn {
+  font-size: 18px;
+  padding: 15px 30px;
+  font-weight: 700;
   display: inline-block;
   flex: 1 1 auto;
   margin-right: 20px;
   margin-bottom: 10px;
-  padding: 15px 40px 15px 40px;
   text-align: center;
   transition: 0.3s;
   background-size: 200% auto;
@@ -66,10 +65,5 @@
 }
 
 .btn-4 {
-  background-image: linear-gradient(
-    to right,
-    #005b9c -50%,
-    #8ccfee 0%,
-    #005b9c 100%
-  );
+  background-image: linear-gradient(90deg, #1495a7 0, #003687 167%);
 }
