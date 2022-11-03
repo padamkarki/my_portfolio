@@ -1,0 +1,12 @@
+.hero_title {
+  color: #110e38;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.center {
+  text-align: center;
+  margin-top: 10%;
+}

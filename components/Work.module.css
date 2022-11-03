@@ -11,12 +11,21 @@
   letter-spacing: -1px;
 }
 .h2_hero_desc {
-  max-width: 28%;
+  max-width: 32%;
   margin-bottom: 0;
   font-size: 18px;
   line-height: 1.6;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 }
+
+.h2_hero_desc2 {
+  max-width: 32%;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0px auto;
+}
+
 .work_container {
   display: grid;
   grid-template-rows: 27rem 27rem;
