@@ -1,14 +1,27 @@
 .blog_container {
-  padding: 2em;
+  padding: 1em;
 }
 
 .blog_img {
   object-fit: cover;
 }
 
-.size {
+.img_size {
   height: 90%;
   width: 100%;
+}
+
+.blog_title {
+  font-weight: 600;
+}
+
+.blog_author {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.blog_date {
+  font-size: 12px;
 }
 
 .card_btn {

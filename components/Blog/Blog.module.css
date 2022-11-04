@@ -19,7 +19,7 @@
 }
 
 .h2_hero_desc2 {
-  max-width: 32%;
+  max-width: 40%;
   margin-bottom: 0;
   font-size: 18px;
   line-height: 1.6;
@@ -28,7 +28,7 @@
 
 .blog_container {
   display: grid;
-  grid-template-rows: 27rem 27rem;
+  grid-template-rows: 35rem 35rem;
   grid-auto-flow: column;
   grid-auto-columns: auto;
   grid-gap: 2%;

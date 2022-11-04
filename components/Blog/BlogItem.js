@@ -14,7 +14,7 @@ const BlogItem = (props) => {
     <>
       <Card>
         <button onClick={showDetailHandler} className={classes.card_btn}>
-          <Card className={classes.size}>
+          <Card className={classes.img_size}>
             <Image
               className={classes.blog_img}
               src={props.img}
@@ -30,18 +30,23 @@ const BlogItem = (props) => {
               Visit the channel
             </a>
           </Link>
-          <h3>
-            {props.imgInfo.length > 80
-              ? `${props.imgInfo.substring(0, 80)}...`
-              : props.imgInfo}
-          </h3>
+          <br />
+          <div className={classes.blog_title}>
+            <Link href="https://youtu.be/yfpL1xYVpM4">
+              <a>
+                {props.imgInfo.length > 80
+                  ? `${props.imgInfo.substring(0, 80)}...`
+                  : props.imgInfo}
+              </a>
+            </Link>
+          </div>
           <p>
             {props.description.length > 120
               ? `${props.description.substring(0, 120)}...`
               : props.description}
           </p>
-          <div>{props.author}</div>
-          <div>{props.date}</div>
+          <div className={classes.blog_author}>{props.author}</div>
+          <div className={classes.blog_date}>{props.date}</div>
         </Card>
       </Card>
     </>

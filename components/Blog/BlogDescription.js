@@ -3,8 +3,8 @@
 const BlogDescription = () => {
   return (
     <p>
-      I show only my best works built completely with passion, simplicity, and
-      creativity!
+      Its a fun, exciting, and action-packed travel blogs. Exploring different
+      places and capturing the moment in the best possible way.
     </p>
   );
 };
