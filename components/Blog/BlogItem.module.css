@@ -1,0 +1,19 @@
+.blog_img {
+  object-fit: cover;
+}
+
+.size {
+  height: 90%;
+  width: 100%;
+}
+
+.card_btn {
+  border: none;
+  background: transparent;
+  overflow: hidden;
+}
+
+.card_btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}

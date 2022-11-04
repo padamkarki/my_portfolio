@@ -1,0 +1,37 @@
+.body {
+  padding: 96px 0;
+}
+
+.h2_hero_title {
+  color: #110e38;
+  font-size: 35px;
+  margin-bottom: 24px;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+.h2_hero_desc {
+  max-width: 32%;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  /* padding-bottom: 40px; */
+}
+
+.h2_hero_desc2 {
+  max-width: 32%;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0px auto;
+}
+
+.blog_container {
+  display: grid;
+  grid-template-rows: 27rem 27rem;
+  grid-auto-flow: column;
+  grid-auto-columns: auto;
+  grid-gap: 2%;
+  overflow: visible;
+  justify-content: space-between;
+}
