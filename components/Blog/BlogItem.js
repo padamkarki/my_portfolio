@@ -7,26 +7,36 @@ import classes from "./BlogItem.module.css";
 const BlogItem = (props) => {
   const router = useRouter();
 
-  function showDetailHandler() {
-    router.push("https://youtu.be/yfpL1xYVpM4");
-  }
+  // function showDetailHandler() {
+  //   router.push("https://youtu.be/yfpL1xYVpM4", "_blank");
+  // }
   return (
     <>
       <Card className={classes.card}>
-        <button onClick={showDetailHandler} className={classes.card_btn}>
-          <div className={classes.img_size}>
-            <Image
-              className={classes.blog_img}
-              src={props.img}
-              alt={props.imgAlt}
-              width={400}
-              height={250}
-            ></Image>
-          </div>
-        </button>
+        <Link
+          href="https://youtu.be/yfpL1xYVpM4"
+          // onClick={showDetailHandler}
+          // className={classes.card_btn}
+        >
+          <a target="_blank" rel="noopener noreferrer">
+            <div className={classes.img_size}>
+              <Image
+                className={classes.blog_img}
+                src={props.img}
+                alt={props.imgAlt}
+                width={400}
+                height={250}
+              ></Image>
+            </div>
+          </a>
+        </Link>
         <div className={classes.blog_container}>
           <Link href="https://youtu.be/yfpL1xYVpM4">
-            <a className={`${classes.btn} ${classes["btn-4"]}`} target="_blank">
+            <a
+              className={`${classes.btn} ${classes["btn-4"]}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Visit the video
             </a>
           </Link>

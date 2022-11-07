@@ -11,8 +11,11 @@
 }
 
 .img_size {
-  height: 90%;
+  /* height: 90%; */
   width: 100%;
+}
+.img_size:hover {
+  cursor: pointer;
 }
 
 .blog_title {
