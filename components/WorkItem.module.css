@@ -9,7 +9,9 @@
 
 .card_btn {
   border: none;
-  background: transparent;
+  all: unset;
+
+  /* background: transparent; */
   overflow: hidden;
 }
 

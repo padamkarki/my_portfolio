@@ -8,7 +8,8 @@ const BlogPage = () => {
   return (
     <>
       <div className={classes.center}>
-        <h1 className={classes.hero_title}>My Blogs</h1>
+        <h1 className={classes.hero_title}>Blog</h1>
+        {/* <BlogTitle /> */}
         <div className={style.h2_hero_desc2}>
           <BlogDescription />
         </div>

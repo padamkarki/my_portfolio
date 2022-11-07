@@ -16,7 +16,7 @@
 }
 
 .blog_author {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
 }
 
@@ -47,7 +47,7 @@
   transition: 0.3s;
   background-size: 200% auto;
   color: white;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 18px 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 18px 0 rgba(0, 0, 0, 0.1); */
   border-radius: 8px;
   text-align: center;
 }

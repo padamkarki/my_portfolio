@@ -25,14 +25,14 @@ const BlogItem = (props) => {
           </Card>
         </button>
         <Card className={classes.blog_container}>
-          <Link href="/">
+          <Link href="https://youtu.be/yfpL1xYVpM4">
             <a className={`${classes.btn} ${classes["btn-4"]}`}>
-              Visit the channel
+              Visit the video
             </a>
           </Link>
           <br />
           <div className={classes.blog_title}>
-            <Link href="https://youtu.be/yfpL1xYVpM4">
+            <Link href="/">
               <a>
                 {props.imgInfo.length > 80
                   ? `${props.imgInfo.substring(0, 80)}...`

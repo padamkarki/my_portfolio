@@ -4,11 +4,11 @@
 
 .h2_hero_title {
   color: #110e38;
-  font-size: 35px;
-  margin-bottom: 24px;
+  font-size: 60px;
   font-weight: 900;
   line-height: 1.2;
-  letter-spacing: -1px;
+  letter-spacing: 0;
+  margin: auto;
 }
 .h2_hero_desc {
   max-width: 32%;
@@ -28,10 +28,40 @@
 
 .blog_container {
   display: grid;
-  grid-template-rows: 35rem 35rem;
+  grid-template-rows: 30rem 30rem;
   grid-auto-flow: column;
   grid-auto-columns: auto;
   grid-gap: 2%;
   overflow: visible;
   justify-content: space-between;
+  padding: 20px 0;
+}
+
+.button {
+  margin: 5%;
+  text-align: center;
+}
+.btn {
+  font-size: 18px;
+  padding: 15px 30px;
+  font-weight: 700;
+  display: inline-block;
+  flex: 1 1 auto;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  transition: 0.3s;
+  background-size: 200% auto;
+  color: white;
+  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 18px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-4 {
+  background-image: linear-gradient(90deg, #1495a7 0, #003687 167%);
 }

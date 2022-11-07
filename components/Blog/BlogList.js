@@ -1,4 +1,5 @@
 import BlogItem from "./BlogItem";
+import Link from "next/link";
 import { blogs } from "./blogData";
 import classes from "./Blog.module.css";
 
@@ -54,6 +55,13 @@ const BlogList = (props) => {
           author={blogs[0].author}
           date={blogs[0].date}
         ></BlogItem>
+      </div>
+      <div className={classes.button}>
+        <Link href="https://www.youtube.com/KKBPictures">
+          <a className={`${classes.btn} ${classes["btn-4"]}`}>
+            Visit the Channel
+          </a>
+        </Link>
       </div>
     </>
   );
