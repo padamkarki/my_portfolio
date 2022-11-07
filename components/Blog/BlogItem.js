@@ -12,21 +12,21 @@ const BlogItem = (props) => {
   }
   return (
     <>
-      <Card>
+      <Card className={classes.card}>
         <button onClick={showDetailHandler} className={classes.card_btn}>
-          <Card className={classes.img_size}>
+          <div className={classes.img_size}>
             <Image
               className={classes.blog_img}
               src={props.img}
               alt={props.imgAlt}
-              width={380}
+              width={400}
               height={250}
             ></Image>
-          </Card>
+          </div>
         </button>
-        <Card className={classes.blog_container}>
+        <div className={classes.blog_container}>
           <Link href="https://youtu.be/yfpL1xYVpM4">
-            <a className={`${classes.btn} ${classes["btn-4"]}`}>
+            <a className={`${classes.btn} ${classes["btn-4"]}`} target="_blank">
               Visit the video
             </a>
           </Link>
@@ -47,7 +47,7 @@ const BlogItem = (props) => {
           </p>
           <div className={classes.blog_author}>{props.author}</div>
           <div className={classes.blog_date}>{props.date}</div>
-        </Card>
+        </div>
       </Card>
     </>
   );

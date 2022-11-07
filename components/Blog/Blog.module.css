@@ -28,7 +28,7 @@
 
 .blog_container {
   display: grid;
-  grid-template-rows: 30rem 30rem;
+  grid-template-rows: 32rem 32rem;
   grid-auto-flow: column;
   grid-auto-columns: auto;
   grid-gap: 2%;

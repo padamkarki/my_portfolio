@@ -58,7 +58,7 @@ const BlogList = (props) => {
       </div>
       <div className={classes.button}>
         <Link href="https://www.youtube.com/KKBPictures">
-          <a className={`${classes.btn} ${classes["btn-4"]}`}>
+          <a className={`${classes.btn} ${classes["btn-4"]}`} target="_blank">
             Visit the Channel
           </a>
         </Link>
