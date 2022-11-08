@@ -14,7 +14,7 @@ const BlogItem = (props) => {
     <>
       <Card className={classes.card}>
         <Link
-          href="https://youtu.be/yfpL1xYVpM4"
+          href={props.url}
           // onClick={showDetailHandler}
           // className={classes.card_btn}
         >
@@ -31,7 +31,7 @@ const BlogItem = (props) => {
           </a>
         </Link>
         <div className={classes.blog_container}>
-          <Link href="https://youtu.be/yfpL1xYVpM4">
+          <Link href={props.url}>
             <a
               className={`${classes.btn} ${classes["btn-4"]}`}
               target="_blank"

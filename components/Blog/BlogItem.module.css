@@ -8,12 +8,14 @@
 
 .blog_img {
   object-fit: cover;
+  transform: scale(1.11);
 }
 
 .img_size {
   /* height: 90%; */
   width: 100%;
 }
+
 .img_size:hover {
   cursor: pointer;
 }
