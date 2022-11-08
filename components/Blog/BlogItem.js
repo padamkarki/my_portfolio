@@ -44,15 +44,15 @@ const BlogItem = (props) => {
           <div className={classes.blog_title}>
             <Link href="/">
               <a>
-                {props.imgInfo.length > 80
-                  ? `${props.imgInfo.substring(0, 80)}...`
+                {props.imgInfo.length > 70
+                  ? `${props.imgInfo.substring(0, 70)}...`
                   : props.imgInfo}
               </a>
             </Link>
           </div>
           <p>
-            {props.description.length > 120
-              ? `${props.description.substring(0, 120)}...`
+            {props.description.length > 115
+              ? `${props.description.substring(0, 115)}...`
               : props.description}
           </p>
           <div className={classes.blog_author}>{props.author}</div>

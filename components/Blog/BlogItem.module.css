@@ -8,7 +8,9 @@
 
 .blog_img {
   object-fit: cover;
-  transform: scale(1.11);
+  transform: translateY(-10px);
+  transform: translateX(center);
+  scale: 104%;
 }
 
 .img_size {

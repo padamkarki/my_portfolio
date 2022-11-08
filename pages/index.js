@@ -3,6 +3,7 @@ import Introduction from "../components/Introduction";
 import Reviews from "../components/Reviews";
 import Work from "../components/Work";
 import Form from "../components/Form";
+import Blog from "../components/Blog/Blog";
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Introduction />
       <Work />
       <Reviews />
+      <Blog />
       <Form />
     </Fragment>
   );
