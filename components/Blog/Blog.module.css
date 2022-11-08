@@ -4,12 +4,13 @@
 
 .h2_hero_title {
   color: #110e38;
-  font-size: 60px;
+  font-size: 35px;
+  margin-bottom: 24px;
   font-weight: 900;
   line-height: 1.2;
-  letter-spacing: 0;
-  margin: auto;
+  letter-spacing: -1px;
 }
+
 .h2_hero_desc {
   max-width: 32%;
   margin-bottom: 0;
