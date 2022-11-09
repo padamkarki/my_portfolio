@@ -12,6 +12,8 @@ export const blogs = [
     author: "Padam Karki",
     date: "14 Apr 2021",
     url: "https://youtu.be/yfpL1xYVpM4",
+    work: "Director & Editor",
+    embed: "https://www.youtube.com/embed/yfpL1xYVpM4",
   },
   {
     id: "p2",
@@ -24,6 +26,8 @@ export const blogs = [
     author: "Padam Karki",
     date: "07 May 2020",
     url: "https://youtu.be/t0tdddBG8pk",
+    work: "Film",
+    embed: "https://www.youtube.com/embed/t0tdddBG8pk",
   },
   {
     id: "p3",
@@ -36,6 +40,8 @@ export const blogs = [
     author: "Padam Karki",
     date: "09 Sept 2018",
     url: "https://youtu.be/5g7Yg564mmQ",
+    work: "Editor",
+    embed: "https://www.youtube.com/embed/5g7Yg564mmQ",
   },
   {
     id: "p4",
@@ -48,6 +54,8 @@ export const blogs = [
     author: "Padam Karki",
     date: "11 Nov 2020",
     url: "https://youtu.be/ZMvyFtvFe18",
+    work: "Editor",
+    embed: "https://www.youtube.com/embed/ZMvyFtvFe18",
   },
   {
     id: "p5",
@@ -60,6 +68,8 @@ export const blogs = [
     author: "Padam Karki",
     date: "05 Feb 2016",
     url: "https://youtu.be/hKgjO1FWfkU",
+    work: "Director & Editor",
+    embed: "https://www.youtube.com/embed/hKgjO1FWfkU",
   },
   {
     id: "p6",
@@ -71,5 +81,7 @@ export const blogs = [
     author: "Padam Karki",
     date: "27 Nov 2021",
     url: "https://youtu.be/cd1IMHfrvW0",
+    work: "Editor",
+    embed: "https://www.youtube.com/embed/cd1IMHfrvW0",
   },
 ];

@@ -25,6 +25,12 @@
 .blog_title {
   font-weight: 700;
 }
+.blog_card_title {
+  all: unset;
+}
+.blog_card_title:hover {
+  cursor: pointer;
+}
 
 .blog_author {
   font-size: 15px;

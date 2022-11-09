@@ -7,9 +7,9 @@ import classes from "./BlogItem.module.css";
 const BlogItem = (props) => {
   const router = useRouter();
 
-  // function showDetailHandler() {
-  //   router.push("https://youtu.be/yfpL1xYVpM4", "_blank");
-  // }
+  function showDetailHandler() {
+    router.push("/blog/" + props.id);
+  }
   return (
     <>
       <Card className={classes.card}>
@@ -42,13 +42,21 @@ const BlogItem = (props) => {
           </Link>
           <br />
           <div className={classes.blog_title}>
-            <Link href="/">
+            <button
+              onClick={showDetailHandler}
+              className={classes.blog_card_title}
+            >
+              {props.imgInfo.length > 70
+                ? `${props.imgInfo.substring(0, 70)}...`
+                : props.imgInfo}
+            </button>
+            {/* <Link href="/">
               <a>
                 {props.imgInfo.length > 70
                   ? `${props.imgInfo.substring(0, 70)}...`
                   : props.imgInfo}
               </a>
-            </Link>
+            </Link> */}
           </div>
           <p>
             {props.description.length > 115

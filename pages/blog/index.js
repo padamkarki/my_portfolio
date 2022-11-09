@@ -3,6 +3,7 @@ import BlogList from "../../components/Blog/BlogList";
 import classes from "./projects.module.css";
 import style from "../../components/Blog/Blog.module.css";
 import Form from "../../components/Form";
+import { blogs } from "../../components/Blog/blogData";
 
 const BlogPage = () => {
   return (
@@ -14,7 +15,7 @@ const BlogPage = () => {
           <BlogDescription />
         </div>
       </div>
-      <BlogList />
+      <BlogList blogs={blogs} />
       <Form />
     </>
   );
