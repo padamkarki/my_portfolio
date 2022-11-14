@@ -2,7 +2,7 @@ import thumb from "../../assets/thumb.jpg";
 
 export const blogs = [
   {
-    id: "p1",
+    id: "b1",
     img: "https:img.youtube.com/vi/yfpL1xYVpM4/hqdefault.jpg",
     imgAlt: "thumbnail",
     imgInfo:
@@ -16,7 +16,7 @@ export const blogs = [
     embed: "https://www.youtube.com/embed/yfpL1xYVpM4",
   },
   {
-    id: "p2",
+    id: "b2",
     img: "https:img.youtube.com/vi/t0tdddBG8pk/hqdefault.jpg",
     imgAlt: "thumbnail",
     imgInfo:
@@ -30,7 +30,7 @@ export const blogs = [
     embed: "https://www.youtube.com/embed/t0tdddBG8pk",
   },
   {
-    id: "p3",
+    id: "b3",
     img: "https:img.youtube.com/vi/5g7Yg564mmQ/hqdefault.jpg",
     imgAlt: "thumbnail",
     imgInfo:
@@ -44,7 +44,7 @@ export const blogs = [
     embed: "https://www.youtube.com/embed/5g7Yg564mmQ",
   },
   {
-    id: "p4",
+    id: "b4",
     img: "https:img.youtube.com/vi/ZMvyFtvFe18/hqdefault.jpg",
     imgAlt: "thumbnail",
     imgInfo:
@@ -58,7 +58,7 @@ export const blogs = [
     embed: "https://www.youtube.com/embed/ZMvyFtvFe18",
   },
   {
-    id: "p5",
+    id: "b5",
     img: "https:img.youtube.com/vi/hKgjO1FWfkU/hqdefault.jpg",
     imgAlt: "thumbnail",
     imgInfo:
@@ -72,7 +72,7 @@ export const blogs = [
     embed: "https://www.youtube.com/embed/hKgjO1FWfkU",
   },
   {
-    id: "p6",
+    id: "b6",
     img: "https:img.youtube.com/vi/cd1IMHfrvW0/hqdefault.jpg",
     imgAlt: "thumbnail",
     imgInfo: "Memories of Goa | An incredible journey into the heart of Goa.",

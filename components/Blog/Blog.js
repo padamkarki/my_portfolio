@@ -14,7 +14,7 @@ const Blog = () => {
           <BlogDescription />
         </div>
         <div className={classes.limit}>
-          <BlogList height={100} />
+          <BlogList />
         </div>
         <div className={classes.btn_center}>
           <Link href="/blog">

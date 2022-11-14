@@ -5,12 +5,50 @@ const BlogDetails = () => {
   return (
     <>
       <BlogDetail
-        imgInfo={blogs[0].imgInfo}
-        work={blogs[0].work}
-        embed={blogs[0].embed}
-        description={blogs[0].description}
+        imgInfo={blogs.imgInfo}
+        work={blogs.work}
+        embed={blogs.embed}
+        description={blogs.description}
       />
     </>
   );
 };
+
+export function getStaticPaths() {
+  return {
+    fallback: true,
+    paths: [
+      {
+        params: {
+          blogId: "p1",
+        },
+      },
+      {
+        params: {
+          blogId: "p2",
+        },
+      },
+    ],
+  };
+}
+
+export function getStaticProps(context) {
+  const blogId = context.params.blogId;
+  return {
+    props: {
+      blogs: blogId,
+      img: "https:img.youtube.com/vi/yfpL1xYVpM4/hqdefault.jpg",
+      imgAlt: "thumbnail",
+      imgInfo:
+        "Harihar Fort | Accident Prone Steep Stairs Climb/Trek | Nashik, India | हरीहर किल्ला",
+      description:
+        "Experience in 4k the Harihar fort with drone Aerial shots of Nashik's famous fort for its steep stairs. हरीहर किल्ला/गड is just 40km from Nashik & 13 Km from Trimbakeshwar. Also known as Harshgad, it has an 80-degree dangerous climb to the top having the steepest stairs.",
+      author: "Padam Karki",
+      date: "14 Apr 2021",
+      url: "https://youtu.be/yfpL1xYVpM4",
+      work: "Director & Editor",
+      embed: "https://www.youtube.com/embed/yfpL1xYVpM4",
+    },
+  };
+}
 export default BlogDetails;

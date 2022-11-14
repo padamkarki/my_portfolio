@@ -13,12 +13,24 @@ const BlogItem = (props) => {
   return (
     <>
       <Card className={classes.card}>
-        <Link
+        <button onClick={showDetailHandler}>
+          <div className={classes.img_size}>
+            <Image
+              className={classes.blog_img}
+              src={props.img}
+              alt={props.imgAlt}
+              width={400}
+              height={250}
+            ></Image>
+          </div>
+        </button>
+        {/* Used link instead of button................................ */}
+        {/* <Link
           href={props.url}
-          // onClick={showDetailHandler}
-          // className={classes.card_btn}
+          onClick={showDetailHandler}
+          className={classes.card_btn}
         >
-          <a target="_blank" rel="noopener noreferrer">
+          <a>
             <div className={classes.img_size}>
               <Image
                 className={classes.blog_img}
@@ -29,7 +41,7 @@ const BlogItem = (props) => {
               ></Image>
             </div>
           </a>
-        </Link>
+        </Link> */}
         <div className={classes.blog_container}>
           <Link href={props.url}>
             <a
@@ -50,13 +62,6 @@ const BlogItem = (props) => {
                 ? `${props.imgInfo.substring(0, 70)}...`
                 : props.imgInfo}
             </button>
-            {/* <Link href="/">
-              <a>
-                {props.imgInfo.length > 70
-                  ? `${props.imgInfo.substring(0, 70)}...`
-                  : props.imgInfo}
-              </a>
-            </Link> */}
           </div>
           <p>
             {props.description.length > 115
