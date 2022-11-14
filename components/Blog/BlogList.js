@@ -3,7 +3,7 @@ import Link from "next/link";
 import classes from "./Blog.module.css";
 import { blogs } from "../../components/Blog/blogData";
 
-const BlogList = (props) => {
+const BlogList = () => {
   return (
     <>
       <div className={classes.blog_container}>

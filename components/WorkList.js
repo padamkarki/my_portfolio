@@ -2,7 +2,7 @@ import WorkItem from "./WorkItem";
 import { projects } from "./workData";
 import classes from "./Work.module.css";
 
-const WorkList = (props) => {
+const WorkList = () => {
   return (
     <>
       <div className={classes.work_container}>

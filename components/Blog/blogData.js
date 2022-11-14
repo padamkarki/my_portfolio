@@ -20,7 +20,7 @@ export const blogs = [
     img: "https:img.youtube.com/vi/t0tdddBG8pk/hqdefault.jpg",
     imgAlt: "thumbnail",
     imgInfo:
-      "Nepal | Two weeks in Rural Nepal I India To Nepal | What to Expect in Countryside | Cinematic Video",
+      "Nepal | Two weeks in Rural Nepal | India To Nepal | What to Expect in Countryside | Cinematic Video",
     description:
       "Travelling to the countryside of Nepal, rural Nepal from India. It covers the two weeks of our recent Trip to Nepal, and shows what to expect. For travel tips continue to read on. Video captures: 3D Maps of Rural Nepal, Road trip, Transportation, Village life, Seti River, Mountains, Dhangadi, Bandori Sain (Banedugri Sain), Seti Gaon, Latamandu, Gobghaat, Latamandau, Dipayal Silgadhi, Tijali. We stayed in Nepal for 2 weeks and it was a unique experience. Coming from the city, rural life was a real surprise. If we have to summarize: The transportations are poor; the mountains are harsh; facilities are minimal, Rivers and streams are beautiful; Forests are silent but beautiful.",
     author: "Padam Karki",

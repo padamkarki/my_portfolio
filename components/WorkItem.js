@@ -7,7 +7,7 @@ const WorkItem = (props) => {
   const router = useRouter();
 
   function showDetailHandler() {
-    router.push("/projects");
+    router.push("/projects/" + props.id);
   }
   return (
     <>
