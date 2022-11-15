@@ -14,10 +14,10 @@ const WorkDetails = () => {
   return (
     <>
       <WorkDetail
-        imgInfo={projects[indexNo].imgInfo}
-        work={projects[indexNo].work}
-        embed={projects[indexNo].embed}
-        description={projects[indexNo].description}
+        imgInfo={projects[indexNo]?.imgInfo}
+        work={projects[indexNo]?.work}
+        embed={projects[indexNo]?.embed}
+        description={projects[indexNo]?.description}
       />
     </>
   );

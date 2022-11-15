@@ -14,6 +14,7 @@ const WorkItem = (props) => {
       <button onClick={showDetailHandler} className={classes.card_btn}>
         <Card className={classes.size}>
           <Image
+            priority={true}
             className={classes.work_img}
             src={props.img}
             alt={props.imgAlt}

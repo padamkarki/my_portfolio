@@ -16,6 +16,7 @@ const BlogItem = (props) => {
         <button onClick={showDetailHandler}>
           <div className={classes.img_size}>
             <Image
+              priority={true}
               className={classes.blog_img}
               src={props.img}
               alt={props.imgAlt}

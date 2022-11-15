@@ -1,23 +1,27 @@
 import BlogDetail from "../../../components/Blog/BlogDetail";
 import { blogs } from "../../../components/Blog/blogData";
 import { useRouter } from "next/router";
+import { useState } from "react";
 
 const BlogDetails = () => {
+  // const [indexState, setIndexState] = useState(indexNo);
+
   const router = useRouter();
   const { blogId } = router.query;
+  console.log(blogId);
 
   const index = (element) => element.id == blogId;
   const indexNo = blogs.findIndex(index);
 
-  console.log(indexNo);
+  // setIndexState("Updated");
 
   return (
     <>
       <BlogDetail
-        imgInfo={blogs[indexNo].imgInfo}
-        work={blogs[indexNo].work}
-        embed={blogs[indexNo].embed}
-        description={blogs[indexNo].description}
+        imgInfo={blogs[indexNo]?.imgInfo}
+        work={blogs[indexNo]?.work}
+        embed={blogs[indexNo]?.embed}
+        description={blogs[indexNo]?.description}
       />
     </>
   );
