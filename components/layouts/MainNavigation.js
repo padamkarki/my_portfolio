@@ -5,10 +5,13 @@ function MainNavigation() {
   return (
     <header className={classes.header}>
       <div className={classes.logo}>
-        <Link href="/">My Portfolio</Link>
+        <Link href="/">Portfolio</Link>
       </div>
       <nav>
         <ul>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
           <li>
             <Link href="/projects">Projects</Link>
           </li>

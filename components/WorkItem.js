@@ -6,22 +6,27 @@ import classes from "./WorkItem.module.css";
 const WorkItem = (props) => {
   const router = useRouter();
 
-  function showDetailHandler() {
+  function showDetailHandler(event) {
+    event.preventDefault();
     router.push("/projects/" + props.id);
   }
   return (
     <>
       <button onClick={showDetailHandler} className={classes.card_btn}>
-        <Card className={classes.size}>
+        <Card className={classes.card}>
           <Image
-            priority={true}
             className={classes.work_img}
+            priority={true}
             src={props.img}
             alt={props.imgAlt}
             width={380}
             height={400}
           ></Image>
-          <div>{props.imgInfo}</div>
+          <div className={classes.content}>
+            {props.imgInfo?.length > 45
+              ? `${props.imgInfo?.substring(0, 45)}...`
+              : props.imgInfo}
+          </div>
         </Card>
       </button>
     </>

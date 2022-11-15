@@ -9,8 +9,6 @@ const WorkDetails = () => {
   const index = (element) => element.id == projectId;
   const indexNo = projects.findIndex(index);
 
-  console.log(indexNo);
-
   return (
     <>
       <WorkDetail

@@ -46,7 +46,7 @@ const Form = () => {
           </div>
           <div>
             <button
-              onSubmit=""
+              // onSubmit=""
               className={`${classes.btn} ${classes["btn-4"]}`}
             >
               Send now

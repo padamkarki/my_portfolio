@@ -8,12 +8,12 @@
   display: flex;
   align-items: center;
   background-color: #f2f6ff;
+  color: #110e38;
 }
 
 .logo {
-  font-size: 1rem;
-  color: #110e38;
   font-weight: bold;
+  margin-right: 5%;
 }
 
 .header ul {
@@ -25,14 +25,13 @@
 }
 
 .header li {
-  margin-left: 3rem;
+  margin-left: 30%;
   display: inline;
 }
 
 .header a {
   text-decoration: none;
-  font-size: 1.2rem;
-  color: #110e38;
+  font-size: 18px;
 }
 
 .header a:hover,
