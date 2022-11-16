@@ -1,5 +1,12 @@
+import About from "../../components/About/About";
+import Form from "../../components/Form";
 const AboutPage = () => {
-  return <h1>About Page</h1>;
+  return (
+    <>
+      <About />
+      <Form />
+    </>
+  );
 };
 
 export default AboutPage;

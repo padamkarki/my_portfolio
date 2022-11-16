@@ -1,0 +1,35 @@
+.about_body {
+  margin: 10% auto;
+}
+
+.about_heading {
+  color: #110e38;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.about_image {
+  width: 100%;
+  height: 100%;
+  border-radius: 2em;
+}
+
+.about_text {
+  margin: 2% 12%;
+  text-align: left;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 2%;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.list {
+  text-decoration: none;
+}

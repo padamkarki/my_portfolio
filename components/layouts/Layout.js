@@ -5,7 +5,6 @@ import Footer from "./Footer";
 const Layout = (props) => {
   return (
     <div>
-      <MainNavigation />
       <main className={classes.main}>{props.children}</main>
       <Footer />
     </div>
