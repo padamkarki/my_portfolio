@@ -1,3 +1,5 @@
+import Logos from "./Logos";
+
 import Link from "next/link";
 import Image from "next/future/image";
 import { useRouter } from "next/router";
@@ -54,7 +56,8 @@ function MainNavigation() {
             </li>
           </ul>
         </div>
-        <div>
+        <Logos />
+        {/* <div>
           <ul className={classes.navlinks}>
             <li className={classes.icon}>
               <a
@@ -108,7 +111,7 @@ function MainNavigation() {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </nav>
     </header>
   );

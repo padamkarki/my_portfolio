@@ -1,5 +1,3 @@
-import padam from "../assets/padam.png";
-
 export const projects = [
   {
     id: "p1",

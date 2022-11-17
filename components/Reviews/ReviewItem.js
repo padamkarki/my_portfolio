@@ -1,4 +1,4 @@
-import Card from "./UI/Card";
+import Card from "../UI/Card";
 import Image from "next/future/image";
 import classes from "./ReviewItem.module.css";
 

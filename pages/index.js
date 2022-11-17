@@ -1,8 +1,8 @@
 import { Fragment } from "react";
-import Introduction from "../components/Introduction";
-import Reviews from "../components/Reviews";
-import Work from "../components/Work";
-import Form from "../components/Form";
+import Introduction from "../components/Intro/Introduction";
+import Reviews from "../components/Reviews/Reviews";
+import Work from "../components/Work/Work";
+import Form from "../components/Form/Form";
 import Blog from "../components/Blog/Blog";
 
 const HomePage = () => {

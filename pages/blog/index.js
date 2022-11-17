@@ -2,7 +2,7 @@ import BlogDescription from "../../components/Blog/BlogDescription";
 import BlogList from "../../components/Blog/BlogList";
 import classes from "./projects.module.css";
 import style from "../../components/Blog/Blog.module.css";
-import Form from "../../components/Form";
+import Form from "../../components/Form/Form";
 
 const BlogPage = () => {
   return (

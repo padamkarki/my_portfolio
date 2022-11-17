@@ -1,5 +1,5 @@
 import About from "../../components/About/About";
-import Form from "../../components/Form";
+import Form from "../../components/Form/Form";
 const AboutPage = () => {
   return (
     <>

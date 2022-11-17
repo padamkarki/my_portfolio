@@ -2,7 +2,7 @@ import Link from "next/link";
 import BlogTitle from "./BlogTitle";
 import BlogList from "./BlogList";
 import BlogDescription from "./BlogDescription";
-import classes from "../Work.module.css";
+import classes from "../Work/Work.module.css";
 
 const Blog = () => {
   return (

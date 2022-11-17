@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import { reviewsData } from "./reviewsData";
 import Image from "next/future/image";
-import Card from "./UI/Card";
+import Card from "../UI/Card";
 import "slick-carousel/slick/slick.css"; //react-slick css files
 import "slick-carousel/slick/slick-theme.css"; //react-slick css files
 import classes from "./ReviewItem.module.css";

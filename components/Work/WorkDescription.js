@@ -1,5 +1,3 @@
-import classes from "./Work.module.css";
-
 const WorkDescription = () => {
   return (
     <p>

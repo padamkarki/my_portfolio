@@ -1,6 +1,6 @@
 import Image from "next/future/image";
 import { useRouter } from "next/router";
-import Card from "./UI/Card";
+import Card from "../UI/Card";
 import classes from "./WorkItem.module.css";
 
 const WorkItem = (props) => {
@@ -19,8 +19,8 @@ const WorkItem = (props) => {
             priority={true}
             src={props.img}
             alt={props.imgAlt}
-            width={380}
-            height={400}
+            width={500}
+            height={380}
           ></Image>
           <div className={classes.content}>
             {props.imgInfo?.length > 45

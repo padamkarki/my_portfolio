@@ -1,8 +1,8 @@
-import WorkDescription from "../../components/WorkDescription";
-import WorkList from "../../components/WorkList";
+import WorkDescription from "../../components/Work/WorkDescription";
+import WorkList from "../../components/Work/WorkList";
 import classes from "./projects.module.css";
-import style from "../../components/Work.module.css";
-import Form from "../../components/Form";
+import style from "../../components/Work/Work.module.css";
+import Form from "../../components/Form/Form";
 
 const ProjectsPage = () => {
   return (

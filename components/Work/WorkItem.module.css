@@ -15,15 +15,16 @@
   position: relative;
   background-image: linear-gradient(
     to bottom,
-    rgba(20, 149, 167, 0.52),
-    rgba(0, 54, 135, 0.73)
+    rgba(0, 132, 159, 0.52),
+    rgba(17, 14, 56, 0.8) /* rgba(0, 77, 101, 0.73) */
   );
 }
 
 .work_img {
   transform: scale(1.4);
   object-fit: cover;
-  transition: 0.3s ease-in-out transform, 0.3s ease-in-out filter;
+  transition: 0.2s ease-in-out opacity, 0.3s ease-in-out transform,
+    0.3s ease-in-out filter;
 }
 
 .content {
@@ -31,15 +32,17 @@
   font-weight: 700;
   position: absolute;
   top: 60%;
-  transform: translate(0%, 100%);
-  padding: 8% 1%;
+  transform: translate(0%, 30%);
+  padding: 8% 2%;
   color: #fff;
   text-align: center;
-  transition: 0.3s ease-in-out transform;
+  opacity: 0;
+  transition: 0.5s ease-in-out opacity, 0.3s ease-in-out transform;
 }
 
 .card:hover .content {
-  transform: translate(0, 20%);
+  transform: translate(0, 10%);
+  opacity: 1;
 }
 .card:hover .work_img {
   opacity: 0.2;

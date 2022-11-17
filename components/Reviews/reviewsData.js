@@ -1,7 +1,7 @@
-import sunit from "../assets/sunit.jpg";
-import vikram from "../assets/vikram.jpg";
-import ganesh from "../assets/ganesh.jpg";
-import priyanka from "../assets/priyanka.jpg";
+import sunit from "../../assets/sunit.jpg";
+import vikram from "../../assets/vikram.jpg";
+import ganesh from "../../assets/ganesh.jpg";
+import priyanka from "../../assets/priyanka.jpg";
 
 export const reviewsData = [
   {

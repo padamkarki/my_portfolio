@@ -1,5 +1,5 @@
-import WorkDetail from "../../../components/WorkDetail";
-import { projects } from "../../../components/workData";
+import WorkDetail from "../../../components/Work/WorkDetail";
+import { projects } from "../../../components/Work/workData";
 import { useRouter } from "next/router";
 
 const WorkDetails = () => {

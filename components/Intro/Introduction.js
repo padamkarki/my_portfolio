@@ -1,7 +1,7 @@
 import classes from "./Introduction.module.css";
 import Link from "next/link";
 import Image from "next/future/image";
-import padam from "../assets/padam.png";
+import padam from "../../assets/padam.png";
 
 const Introduction = () => {
   return (
@@ -15,9 +15,17 @@ const Introduction = () => {
           VFX Artist. When I am not designing sites, I like to make videos,
           listen to songs and eat like a pro - foodie.
         </p>
-        <Link href="/form">
+        <a
+          className={`${classes.btn} ${classes["btn-4"]}`}
+          target="_blank"
+          href="https://in.linkedin.com/in/padam-karki-a7258a99"
+          rel="noopener noreferrer"
+        >
+          Get in touch
+        </a>
+        {/* <Link href="/form">
           <a className={`${classes.btn} ${classes["btn-4"]}`}>Get in touch</a>
-        </Link>
+        </Link> */}
         <Link href="/projects">
           <a className={`${classes.btn} ${classes["btn-4"]}`}>See my work</a>
         </Link>
