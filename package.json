@@ -1,8 +1,11 @@
 {
   "name": "my_portfolio",
   "version": "0.1.0",
+  "homepage": "https://padamkarki.github.io/my_portfolio",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -17,6 +20,7 @@
   },
   "devDependencies": {
     "eslint": "8.23.1",
-    "eslint-config-next": "12.3.0"
+    "eslint-config-next": "12.3.0",
+    "gh-pages": "^4.0.0"
   }
 }
