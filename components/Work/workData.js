@@ -1,7 +1,13 @@
+import work_p1 from "../../assets/work_p1.jpeg";
+import work_p2 from "../../assets/work_p2.jpeg";
+import work_p3 from "../../assets/work_p3.jpeg";
+import work_p4 from "../../assets/work_p4.jpeg";
+import work_p5 from "../../assets/work_p5.jpeg";
+import work_p6 from "../../assets/work_p6.jpeg";
 export const projects = [
   {
     id: "p1",
-    img: "https:img.youtube.com/vi/-2whcl7wWc8/hqdefault.jpg",
+    img: work_p1,
     imgAlt: "thumbnail",
     imgInfo: "Teaser for Modern Car Servicing Studio | PSV",
     description: "Teaser for Modern Car Servicing Studio | PSV",
@@ -11,7 +17,7 @@ export const projects = [
   },
   {
     id: "p2",
-    img: "https:img.youtube.com/vi/y7cwBL2vNtI/hqdefault.jpg",
+    img: work_p2,
     imgAlt: "thumbnail",
     imgInfo: "Promotional / Advertisement video for Spring Mountain Farm | PSV",
     description:
@@ -22,7 +28,7 @@ export const projects = [
   },
   {
     id: "p3",
-    img: "https:img.youtube.com/vi/5AaHbHCvbNg/hqdefault.jpg",
+    img: work_p3,
     imgAlt: "thumbnail",
     imgInfo:
       "Promotional video  / Advertisement for Modern Car - Multi Brand Car Servicing Studio | PSV",
@@ -34,7 +40,7 @@ export const projects = [
   },
   {
     id: "p4",
-    img: "https:img.youtube.com/vi/MBAvwS_7z-E/hqdefault.jpg",
+    img: work_p4,
     imgAlt: "thumbnail",
     imgInfo:
       "Ganesh and Priyanka | Most Elegant and Beautiful wedding | Maharashtra Wedding | Wedding Highlight",
@@ -46,7 +52,7 @@ export const projects = [
   },
   {
     id: "p5",
-    img: "https:img.youtube.com/vi/XI6ySOxE9VE/hqdefault.jpg",
+    img: work_p5,
     imgAlt: "thumbnail",
     imgInfo: "Logo Design and Intro Video for Amy Photography",
     description: "Logo Design and Intro Video for Amy Photography.",
@@ -56,7 +62,7 @@ export const projects = [
   },
   {
     id: "p6",
-    img: "https:img.youtube.com/vi/F3ubfPktmYQ/hqdefault.jpg",
+    img: work_p6,
     imgAlt: "thumbnail",
     imgInfo: "Pavan and Vrushali | Best Pre-Wedding of 2022",
     description:

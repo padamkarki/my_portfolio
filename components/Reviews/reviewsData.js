@@ -9,7 +9,6 @@ export const reviewsData = [
     img: sunit,
     imgAlt: "Sunit",
     clientName: "Sunit",
-    clientField: "Cinematographer",
     clientReview:
       "Quamquam id quidem, infinitum est in hac urbe, Ita multo sanguine profuso in laetitia et in victoria est mortuus. Atqui pugnantibus et contrariis studiis semper",
     clientField: "Cinematographer",

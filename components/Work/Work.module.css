@@ -11,8 +11,7 @@
   letter-spacing: -1px;
 }
 .h2_hero_desc {
-  max-width: 32%;
-  margin-bottom: 0;
+  /*max-width: 32%;*/ /* TODO: Confirm why this was added. the layout looks weird. */
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 2%;
@@ -21,10 +20,9 @@
 
 .h2_hero_desc2 {
   max-width: 32%;
-  margin-bottom: 0;
   font-size: 18px;
   line-height: 1.6;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .work_container {
