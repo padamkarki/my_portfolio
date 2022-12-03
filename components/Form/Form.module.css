@@ -18,8 +18,68 @@
   font-size: 20px;
   font-weight: 600;
 }
+@media only screen and (min-width: 1600px) {
+  .input {
+    width: 60%;
+    display: inline-block;
+    font-family: Arial;
+    color: #333;
+    /* width: 50%; */
+    padding: 20px 20px;
+    margin: 12px 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #d5dce3;
+  }
+}
 
-.input {
+@media only screen and (max-width: 1600px) {
+  .input {
+    width: 60%;
+    display: inline-block;
+    font-family: Arial;
+    color: #333;
+    padding: 20px 20px;
+    margin: 12px 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #d5dce3;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .input {
+    width: 80%;
+    display: inline-block;
+    font-family: Arial;
+    color: #333;
+    padding: 20px 20px;
+    margin: 12px 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #d5dce3;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .input {
+    width: 100%;
+    display: inline-block;
+    font-family: Arial;
+    color: #333;
+    padding: 20px 20px;
+    margin: 12px 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #d5dce3;
+  }
+}
+
+/* .input {
   display: inline-block;
   font-family: Arial;
   color: #333;
@@ -30,7 +90,7 @@
   box-sizing: border-box;
   border-radius: 10px;
   border: 1px solid #d5dce3;
-}
+} */
 
 .input:focus {
   outline: none;
