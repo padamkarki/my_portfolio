@@ -1,9 +1,14 @@
-import thumb from "../../assets/thumb.jpg";
+import b1 from "../../assets/b1.jpg";
+import b2 from "../../assets/b2.jpg";
+import b3 from "../../assets/b3.jpg";
+import b4 from "../../assets/b4.jpg";
+import b5 from "../../assets/b5.jpg";
+import b6 from "../../assets/b6.jpg";
 
 export const blogs = [
   {
     id: "b1",
-    img: "https:img.youtube.com/vi/yfpL1xYVpM4/hqdefault.jpg",
+    img: b1,
     imgAlt: "thumbnail",
     imgInfo:
       "Harihar Fort | Accident Prone Steep Stairs Climb/Trek | Nashik, India | हरीहर किल्ला",
@@ -17,7 +22,7 @@ export const blogs = [
   },
   {
     id: "b2",
-    img: "https:img.youtube.com/vi/t0tdddBG8pk/hqdefault.jpg",
+    img: b2,
     imgAlt: "thumbnail",
     imgInfo:
       "Nepal | Two weeks in Rural Nepal | India To Nepal | What to Expect in Countryside | Cinematic Video",
@@ -31,7 +36,7 @@ export const blogs = [
   },
   {
     id: "b3",
-    img: "https:img.youtube.com/vi/5g7Yg564mmQ/hqdefault.jpg",
+    img: b3,
     imgAlt: "thumbnail",
     imgInfo:
       "Bhandardara dam | Camp site firefly - jugnu home | Best place for camping in Nashik, India",
@@ -45,7 +50,7 @@ export const blogs = [
   },
   {
     id: "b4",
-    img: "https:img.youtube.com/vi/ZMvyFtvFe18/hqdefault.jpg",
+    img: b4,
     imgAlt: "thumbnail",
     imgInfo:
       "Pandavleni Nashik | पांडवलेनी नासिक | Cinematic video | Nasik | Maharashtra",
@@ -59,7 +64,7 @@ export const blogs = [
   },
   {
     id: "b5",
-    img: "https:img.youtube.com/vi/hKgjO1FWfkU/hqdefault.jpg",
+    img: b5,
     imgAlt: "thumbnail",
     imgInfo:
       "BYK College Days Official After Movie - College Road, Nashik, Maharashtra",
@@ -73,7 +78,7 @@ export const blogs = [
   },
   {
     id: "b6",
-    img: "https:img.youtube.com/vi/cd1IMHfrvW0/hqdefault.jpg",
+    img: b6,
     imgAlt: "thumbnail",
     imgInfo: "Memories of Goa | An incredible journey into the heart of Goa.",
     description:

@@ -1,6 +1,6 @@
 import classes from "./WorkDetail.module.css";
 
-const BlogDetail = (props) => {
+const WorkDetail = (props) => {
   return (
     <>
       <div className={classes.body}>
@@ -30,4 +30,4 @@ const BlogDetail = (props) => {
   );
 };
 
-export default BlogDetail;
+export default WorkDetail;

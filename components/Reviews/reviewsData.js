@@ -10,7 +10,7 @@ export const reviewsData = [
     imgAlt: "Sunit",
     clientName: "Sunit",
     clientReview:
-      "Quamquam id quidem, infinitum est in hac urbe, Ita multo sanguine profuso in laetitia et in victoria est mortuus. Atqui pugnantibus et contrariis studiis semper",
+      "Loved user experience, also very good resposive design, compatible with smaller screen also he is good editor.",
     clientField: "Cinematographer",
   },
   {
@@ -20,7 +20,7 @@ export const reviewsData = [
     clientName: "Vikram",
     clientField: "Software Engineer",
     clientReview:
-      "Quamquam id quidem, infinitum est in hac urbe, Ita multo sanguine profuso in laetitia et in victoria est mortuus. Atqui pugnantibus et contrariis studiis semper",
+      "Good designs for website, creative user experience, cool icons and amazing user interface. Overall good experience.",
   },
   {
     id: "r3",
@@ -29,7 +29,7 @@ export const reviewsData = [
     clientName: "Ganesh",
     clientField: "Software Engineer",
     clientReview:
-      "Quamquam id quidem, infinitum est in hac urbe, Ita multo sanguine profuso in laetitia et in victoria est mortuus. Atqui pugnantibus et contrariis studiis semper",
+      "Very good user interface. And I like the most is its ui/ux for desktop as well as mobile web pages.",
   },
   {
     id: "r4",
@@ -38,6 +38,6 @@ export const reviewsData = [
     clientName: "Priyanka",
     clientField: "Software Engineer",
     clientReview:
-      "Quamquam id quidem, infinitum est in hac urbe, Ita multo sanguine profuso in laetitia et in victoria est mortuus. Atqui pugnantibus et contrariis studiis semper",
+      "Attractive user interface, efficient workflow, responsive website. overall good experience. great work",
   },
 ];

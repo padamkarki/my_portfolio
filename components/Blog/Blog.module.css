@@ -1,5 +1,5 @@
 .body {
-  padding: 96px 0;
+  padding-top: 96px;
 }
 
 .h2_hero_title {
@@ -27,30 +27,62 @@
   margin: 0px auto;
 }
 
-.blog_container {
-  display: grid;
+@media only screen and (min-width: 1200px) {
+  .blog_container {
+    /* display: grid;
   grid-template-rows: 32rem 32rem;
   grid-auto-flow: column;
   grid-auto-columns: auto;
   grid-gap: 2%;
   overflow: visible;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 20px 0; */
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 31% 31% 31%;
+    grid-gap: 3%;
+    padding: 20px 0;
+    overflow: visible;
+    justify-content: space-between;
+  }
 }
+
+@media only screen and (max-width: 1200px) {
+  .blog_container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 49% 49%;
+    grid-gap: 3%;
+    padding: 20px 0;
+    overflow: visible;
+    justify-content: space-between;
+  }
+}
+
+/* @media only screen and (max-width: 640px) {
+  .blog_container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    padding: 20px 0;
+    overflow: visible;
+    justify-content: space-between;
+  }
+} */
 
 .button {
   margin: 5%;
   text-align: center;
 }
+
+.btn_center {
+  text-align: center;
+}
+
 .btn {
   font-size: 18px;
-  padding: 15px 30px;
+  padding: 15px 50px;
   font-weight: 700;
-  display: inline-block;
-  flex: 1 1 auto;
-  margin-right: 20px;
-  margin-bottom: 10px;
-  text-align: center;
   transition: 0.3s;
   background-size: 200% auto;
   color: white;

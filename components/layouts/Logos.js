@@ -11,7 +11,7 @@ const Logos = () => {
   return (
     <>
       <div>
-        <ul className={classes.navlinks}>
+        <ul className={classes.naviconlinks}>
           <li className={classes.icon}>
             <a
               target="_blank"
