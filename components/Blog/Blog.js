@@ -3,6 +3,7 @@ import BlogTitle from "./BlogTitle";
 import BlogList from "./BlogList";
 import BlogDescription from "./BlogDescription";
 import classes from "../Work/Work.module.css";
+import style from "../Blog/Blog.module.css";
 
 const Blog = () => {
   return (
@@ -16,9 +17,9 @@ const Blog = () => {
         <div className={classes.limit}>
           <BlogList />
         </div>
-        <div className={classes.btn_center}>
+        <div className={style.btn_center}>
           <Link href="/blog">
-            <a className={`${classes.btn} ${classes["btn-4"]}`}>View All</a>
+            <a className={`${style.btn} ${style["btn-4"]}`}>View All</a>
           </Link>
         </div>
       </section>

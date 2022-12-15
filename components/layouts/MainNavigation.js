@@ -15,10 +15,10 @@ function MainNavigation() {
   return (
     <header>
       <nav className={classes.nav}>
-        <div className={classes.logo}>
-          {/*<Link href="/">Portfolio</Link>*/}
-          {/* TODO: Fix the layout; Temporarily removed the logo as it was overlapping on Home */}
-        </div>
+        {/* <div className={classes.logo}>
+          <Link href="/">Portfolio</Link>
+          TODO: Fix the layout; Temporarily removed the logo as it was overlapping on Home
+        </div> */}
         <div>
           <ul className={classes.navlinks}>
             <li>

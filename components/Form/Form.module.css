@@ -1,7 +1,8 @@
 .form {
-  padding: 96px 0;
   display: block;
   text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .form_title {
@@ -20,7 +21,7 @@
 }
 @media only screen and (min-width: 1600px) {
   .input {
-    width: 60%;
+    width: 80%;
     display: inline-block;
     font-family: Arial;
     color: #333;
@@ -36,7 +37,7 @@
 
 @media only screen and (max-width: 1600px) {
   .input {
-    width: 60%;
+    width: 80%;
     display: inline-block;
     font-family: Arial;
     color: #333;
@@ -51,7 +52,7 @@
 
 @media only screen and (max-width: 1024px) {
   .input {
-    width: 80%;
+    width: 90%;
     display: inline-block;
     font-family: Arial;
     color: #333;
@@ -101,8 +102,8 @@
 
 .btn {
   font-size: 18px;
-  padding: 15px 30px;
-  font-weight: 900;
+  padding: 20px 50px;
+  font-weight: 700;
   display: inline-block;
   flex: 1 1 auto;
   text-align: center;
