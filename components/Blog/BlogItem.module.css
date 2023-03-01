@@ -7,6 +7,8 @@
 }
 
 .blog_img {
+  width: 470px;
+  height: 250px;
   object-fit: cover;
   transform: translateY(-15px);
   transform: translateX(center);
@@ -88,3 +90,24 @@
 .btn-4 {
   background-image: linear-gradient(90deg, #1495a7 0, #003687 167%);
 }
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/* @media (max-width: 640px) {
+  .blog_container {
+    position: relative;
+    margin-top: -10%;
+    padding: 8%;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .blog_img {
+    width: 150vw;
+    height: 30vh;
+    object-fit: cover;
+    transform: translateY(-15px);
+    transform: translateX(center);
+    scale: 104%;
+  }
+} */
