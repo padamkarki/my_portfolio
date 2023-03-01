@@ -54,18 +54,11 @@ export default class Reviews extends Component {
           },
         },
         {
-          breakpoint: 600,
+          breakpoint: 640,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
             initialSlide: 2,
-          },
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
           },
         },
       ],

@@ -23,9 +23,6 @@ const Introduction = () => {
         >
           Get in touch
         </a>
-        {/* <Link href="/form">
-          <a className={`${classes.btn} ${classes["btn-4"]}`}>Get in touch</a>
-        </Link> */}
         <Link href="/projects">
           <a className={`${classes.btn} ${classes["btn-4"]}`}>See my work</a>
         </Link>
