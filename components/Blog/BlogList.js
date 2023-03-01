@@ -4,6 +4,13 @@ import classes from "./Blog.module.css";
 import { blogs } from "../../components/Blog/blogData";
 
 const BlogList = () => {
+  // const screenWidth = typeof window !== "undefined" ? window.innerWidth : 0;
+  // const showOnlyTwoItems = screenWidth <= 640;
+
+  // const filteredBlogs = showOnlyTwoItems
+  //   ? blogs.slice(0, 2)
+  //   : blogs.slice(0, 3);
+
   return (
     <>
       <div className={classes.blog_container}>

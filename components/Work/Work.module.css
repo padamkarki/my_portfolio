@@ -46,17 +46,6 @@
     overflow: visible;
     justify-content: space-between;
   }
-  .limit {
-    max-height: 50vh;
-    overflow: hidden;
-  }
-}
-
-@media only screen and (max-width: 640px) {
-  .limit {
-    max-height: 66vh;
-    overflow: hidden;
-  }
 }
 
 .btn {
