@@ -2,6 +2,7 @@ import classes from "./Introduction.module.css";
 import Link from "next/link";
 import Image from "next/future/image";
 import padam from "../../assets/padam.png";
+import padam1 from "../../assets/padam.jpg";
 
 const Introduction = () => {
   return (
@@ -30,7 +31,7 @@ const Introduction = () => {
       <div className={classes.column_right}>
         <Image
           className={classes.img}
-          src={padam}
+          src={padam1}
           alt="Padam"
           width={500}
           height={500}
