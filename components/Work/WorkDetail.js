@@ -1,4 +1,7 @@
+import Image from "next/image";
 import classes from "./WorkDetail.module.css";
+import Link from "next/link";
+import Button from "../UI/Button";
 
 const WorkDetail = (props) => {
   return (
@@ -12,7 +15,19 @@ const WorkDetail = (props) => {
           </h1>
           <p className={classes.hero_title_desc}>{props.work}</p>
         </div>
-        <iframe
+        <Link href={props.link}>
+          <a target="_blank" rel="noopener noreferrer">
+            <Image
+              className={classes.work_img}
+              priority={true}
+              src={props.img}
+              alt={props.imgAlt}
+              width="1280"
+              height="720"
+            />
+          </a>
+        </Link>
+        {/* <iframe
           className={classes.video}
           width="1120"
           height="630"
@@ -21,7 +36,10 @@ const WorkDetail = (props) => {
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-        ></iframe>
+        /> */}
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
+          <Button>Visit Website</Button>
+        </a>
         <div className={classes.description_space}>
           <p className={classes.description}>{props.description}...</p>
         </div>

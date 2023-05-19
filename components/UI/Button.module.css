@@ -1,0 +1,36 @@
+.btn {
+  font-size: 18px;
+  padding: 15px 30px;
+  font-weight: 700;
+  display: inline-block;
+  flex: 1 1 auto;
+  margin: 1rem;
+  text-align: center;
+  transition: 0.2s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 18px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-4 {
+  background-image: linear-gradient(90deg, #1495a7 0, #003687 167%);
+}
+.btn-5 {
+  background-image: linear-gradient(45deg, white 0, #f0f1ff 167%);
+  color: #110e38;
+}
+
+@media (max-width: 640px) {
+  .btn {
+    font-size: 18px;
+    padding: 15px 30px;
+    font-weight: 700;
+    display: inline-block;
+    flex: 1 1 auto;
+  }
+}

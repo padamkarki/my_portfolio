@@ -4,6 +4,8 @@ import work_p3 from "../../assets/work_p3.jpeg";
 import work_p4 from "../../assets/work_p4.jpeg";
 import work_p5 from "../../assets/work_p5.jpeg";
 import work_p6 from "../../assets/work_p6.jpeg";
+import work_w1 from "../../assets/Dashboard2.png";
+
 export const projects = [
   {
     id: "p1",
@@ -14,6 +16,8 @@ export const projects = [
     url: "https://youtu.be/-2whcl7wWc8",
     work: "Director & Editor",
     embed: "https://www.youtube.com/embed/-2whcl7wWc8",
+    instruction: "Login with random email Id and password",
+    link: "https://dashboard-project-jet.vercel.app/dashboard",
   },
   {
     id: "p2",
@@ -25,6 +29,8 @@ export const projects = [
     url: "https://youtu.be/y7cwBL2vNtI",
     work: "Director & Editor",
     embed: "https://www.youtube.com/embed/y7cwBL2vNtI",
+    instruction: "Login with random email Id and password",
+    link: "https://dashboard-project-jet.vercel.app/dashboard",
   },
   {
     id: "p3",
@@ -37,6 +43,8 @@ export const projects = [
     url: "https://youtu.be/5AaHbHCvbNg",
     work: "Director & Editor",
     embed: "https://www.youtube.com/embed/5AaHbHCvbNg",
+    instruction: "Login with random email Id and password",
+    link: "https://dashboard-project-jet.vercel.app/dashboard",
   },
   {
     id: "p4",
@@ -49,6 +57,8 @@ export const projects = [
     url: "https://youtu.be/MBAvwS_7z-E",
     work: "Director & Editor",
     embed: "https://www.youtube.com/embed/MBAvwS_7z-E",
+    instruction: "Login with random email Id and password",
+    link: "https://dashboard-project-jet.vercel.app/dashboard",
   },
   {
     id: "p5",
@@ -59,6 +69,8 @@ export const projects = [
     url: "https://youtu.be/XI6ySOxE9VE",
     work: "Director & Editor",
     embed: "https://www.youtube.com/embed/XI6ySOxE9VE",
+    instruction: "Login with random email Id and password",
+    link: "https://dashboard-project-jet.vercel.app/dashboard",
   },
   {
     id: "p6",
@@ -70,5 +82,24 @@ export const projects = [
     url: "https://youtu.be/F3ubfPktmYQ",
     work: "Director & Editor",
     embed: "https://www.youtube.com/embed/F3ubfPktmYQ",
+    instruction: "Login with random email Id and password",
+    link: "https://dashboard-project-jet.vercel.app/dashboard",
+  },
+
+  // ------------Demo-------------------------------------------------------
+
+  {
+    id: "w1",
+    img: work_w1,
+    imgAlt: "Website link",
+    imgInfo: "Login and Dashboard Project",
+    description:
+      "This is a web application built using Next.js, React.js, and Recharts. It includes a login page, a dashboard, and charts for data visualization. The application uses standard CSS for styling.",
+    url: "https://dashboard-project-jet.vercel.app/dashboard",
+    work: "Developer",
+    instruction: "Login with random email Id and password",
+    link: "https://dashboard-project-jet.vercel.app/",
   },
 ];
+
+export const webProjects = [];
