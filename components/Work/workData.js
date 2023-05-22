@@ -54,7 +54,7 @@ export const projects = [
   {
     id: "subscription",
     img: Subscription,
-    imgAlt: "Website link",
+    imgAlt: "Web link",
     imgInfo: "Subscription Plan App",
     description:
       "This is a responsive web application built using React.js and standard CSS for selecting subscription plan, when plan selected limited time offer and total price automatically gets updated based on plan",
