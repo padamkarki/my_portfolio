@@ -23,6 +23,7 @@ const WorkDetails = () => {
           description={project.description}
           img={project.img}
           link={project.link}
+          instruction={project.instruction}
         />
       )}
     </>
