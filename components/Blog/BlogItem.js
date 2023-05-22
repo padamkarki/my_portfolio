@@ -25,24 +25,6 @@ const BlogItem = (props) => {
             ></Image>
           </div>
         </button>
-        {/* Used link instead of button................................ */}
-        {/* <Link
-          href={props.url}
-          onClick={showDetailHandler}
-          className={classes.card_btn}
-        >
-          <a>
-            <div className={classes.img_size}>
-              <Image
-                className={classes.blog_img}
-                src={props.img}
-                alt={props.imgAlt}
-                width={400}
-                height={250}
-              ></Image>
-            </div>
-          </a>
-        </Link> */}
         <div className={classes.blog_container}>
           <Link href={props.url}>
             <a
