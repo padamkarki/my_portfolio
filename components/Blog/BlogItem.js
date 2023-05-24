@@ -13,18 +13,17 @@ const BlogItem = (props) => {
   return (
     <>
       <Card className={classes.card}>
-        <button onClick={showDetailHandler}>
+        <div onClick={showDetailHandler}>
           <div className={classes.img_size}>
             <Image
               priority={true}
               className={classes.blog_img}
               src={props.img}
               alt={props.imgAlt}
-              width={470}
               height={250}
             ></Image>
           </div>
-        </button>
+        </div>
         <div className={classes.blog_container}>
           <Link href={props.url}>
             <a

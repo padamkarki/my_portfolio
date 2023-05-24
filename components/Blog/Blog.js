@@ -12,13 +12,10 @@ const Blog = () => {
     <>
       <section className={classes.body}>
         <BlogTitle />
-        <div className={classes.button}></div>
         <div className={classes.h2_hero_desc}>
           <BlogDescription />
         </div>
-        <div className={classes.limit}>
-          <BlogListHome />
-        </div>
+        <BlogListHome />
         <div className={style.btn_center}>
           <Link href="/blog">
             <a className={`${style.btn} ${style["btn-4"]}`}>View All</a>

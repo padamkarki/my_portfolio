@@ -19,7 +19,7 @@ const WorkItem = (props) => {
             priority={true}
             src={props.img}
             alt={props.imgAlt}
-            width={500}
+            // width={500}
             height={380}
           ></Image>
           <div className={classes.content}>

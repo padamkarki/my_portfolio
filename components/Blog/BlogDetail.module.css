@@ -5,12 +5,12 @@
 
 /* Title................................................. */
 .hero_title_space {
-  padding: 6% 0 4%;
+  padding: 5% 0 1%;
 }
 
 .hero_title {
   margin: 0 15%;
-  font-size: 60px;
+  font-size: 30px;
   margin-bottom: 24px;
   font-weight: 900;
   line-height: 1.12;

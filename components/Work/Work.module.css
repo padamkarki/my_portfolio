@@ -11,11 +11,9 @@
   letter-spacing: -1px;
 }
 .h2_hero_desc {
-  /*max-width: 32%;*/ /* TODO: Confirm why this was added. the layout looks weird. */
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 2%;
-  /* padding-bottom: 40px; */
 }
 
 .h2_hero_desc2 {
@@ -23,29 +21,6 @@
   font-size: 18px;
   line-height: 1.6;
   margin: 0 auto;
-}
-
-@media only screen and (min-width: 1200px) {
-  .work_container {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 32% 32% 32%;
-    /* grid-auto-flow: column; */
-    /* grid-auto-columns: auto; */
-    /* grid-gap: 0%; */
-    overflow: visible;
-    justify-content: space-between;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .work_container {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 49% 49%;
-    overflow: visible;
-    justify-content: space-between;
-  }
 }
 
 .btn {
@@ -70,4 +45,50 @@
 
 .btn-4 {
   background-image: linear-gradient(90deg, #1495a7 0, #003687 167%);
+}
+
+/*Responsice CSS-------------------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 1200px) {
+  .work_container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 32% 32% 32%;
+    /* grid-auto-flow: column; */
+    /* grid-auto-columns: auto; */
+    /* grid-gap: 0%; */
+    overflow: visible;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .work_container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 49% 49%;
+    overflow: visible;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .body {
+    padding: 30px 0;
+  }
+
+  .work_container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    overflow: visible;
+    justify-content: space-between;
+  }
+
+  .h2_hero_title {
+    font-size: 30px;
+  }
+  .h2_hero_desc {
+    line-height: 1.5;
+  }
 }
