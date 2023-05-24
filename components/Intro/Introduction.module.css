@@ -74,6 +74,47 @@
 }
 
 /*--------------------------Media Query------------------------------------------------------------------------------------------*/
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .row {
+    display: block;
+    padding: 0;
+    align-items: center;
+  }
+
+  .column_left {
+    flex: 0%;
+    text-align: center;
+  }
+  .column_right {
+    flex: center;
+  }
+  .img {
+    width: 100%;
+    height: 25rem;
+    float: none;
+    object-fit: cover;
+    object-position: 100% 25%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 100px 80px rgb(20 149 167 / 7%),
+      0 41.7776px 33.4221px rgb(20 149 167 / 5%),
+      0 22.3363px 17.869px rgb(20 149 167 / 4%),
+      0 12.5216px 10.0172px rgb(20 149 167 / 4%),
+      0 6.6501px 5.32008px rgb(20 149 167 / 3%),
+      0 2.76726px 2.21381px rgb(20 149 167 / 2%);
+  }
+  .btn {
+    font-size: 18px;
+    padding: 20px 8px;
+    font-weight: 700;
+    display: inline-block;
+    flex: 1 1 auto;
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+}
+
 @media (max-width: 768px) {
   .row {
     display: block;

@@ -1,11 +1,17 @@
 import Link from "next/link";
 import classes from "./BlogDetail.module.css";
+import HeroTitle from "../UI/HeroTitle";
 
 const BlogDetail = (props) => {
   return (
     <>
       <div className={classes.body}>
         <div className={classes.hero_title_space}>
+          {/* <HeroTitle>
+            {props.imgInfo?.length > 42
+              ? `${props.imgInfo?.substring(0, 42)}...`
+              : props.imgInfo}
+          </HeroTitle> */}
           <h1 className={classes.hero_title}>
             {props.imgInfo?.length > 42
               ? `${props.imgInfo?.substring(0, 42)}...`

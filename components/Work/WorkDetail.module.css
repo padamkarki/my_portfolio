@@ -1,6 +1,7 @@
 .body {
   text-align: center;
   color: #110e38;
+  margin-top: 5%;
 }
 
 /* Title................................................. */
@@ -10,8 +11,8 @@
 
 .hero_title {
   margin: 0 10%;
-  font-size: 25px;
-  margin-bottom: 10px;
+  font-size: 30px;
+  margin-bottom: 20px;
   font-weight: 700;
   line-height: 1.12;
   letter-spacing: 0;

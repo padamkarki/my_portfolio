@@ -19,7 +19,7 @@ const MainNavigation = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth > 767) {
+      if (window.innerWidth > 768) {
         setIsScreenSmall(false);
       } else {
         setIsScreenSmall(true);
@@ -34,19 +34,19 @@ const MainNavigation = () => {
     };
   }, []);
 
-  const toggleNav = () => {
+  const handleNavSize = () => {
     setIsScreenSmall(!isScreenSmall);
   };
 
   return (
     <header>
-      <div onClick={toggleNav} className={classes.hamburger}>
+      <div onClick={handleNavSize} className={classes.hamburger}>
         {isScreenSmall && <MenuIcon />}
       </div>
       <nav className={isScreenSmall ? classes.navSmall : classes.nav}>
         {!isScreenSmall && ( // <-- Updated condition
           <ul className={classes.navlinks}>
-            <div onClick={toggleNav} className={classes.closeIcon}>
+            <div onClick={handleNavSize} className={classes.closeIcon}>
               <CloseIcon />
             </div>
             <li>

@@ -3,19 +3,14 @@ import Link from "next/link";
 
 import padam from "../../assets/padam_about.jpg";
 import classes from "./About.module.css";
+import HeroTitle from "../UI/HeroTitle";
 
 const About = () => {
   return (
     <>
       <section className={classes.about_body}>
-        <h1 className={classes.about_heading}>About</h1>
-        <Image
-          className={classes.about_image}
-          src={padam}
-          alt="Padam"
-          width={1152}
-          height={648}
-        ></Image>
+        <HeroTitle className={classes.about_heading}>About</HeroTitle>
+
         <p className={`${classes.about_text} ${classes.bold}`}>
           Front-End Developer | Digital Artist
         </p>
@@ -52,6 +47,15 @@ const About = () => {
               Kong: Skull Island (2017) and more
             </li>
           </ul>
+        </div>
+        <div className={classes.container}>
+          <Image
+            className={classes.about_image}
+            src={padam}
+            alt="Padam"
+            width={1152}
+            height={648}
+          ></Image>
         </div>
       </section>
     </>

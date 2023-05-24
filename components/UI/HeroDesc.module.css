@@ -1,0 +1,26 @@
+.hero_desc {
+  max-width: 32%;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+  .hero_desc {
+    max-width: 100%;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    text-align: justify;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .hero_desc {
+    max-width: 70%;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    text-align: justify;
+  }
+}

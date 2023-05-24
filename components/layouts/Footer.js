@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
       <div className={classes.copyright}>
         <p>
-          <span className={classes.year}>2022 </span> © Padam Karki.
+          <span className={classes.year}>2023 </span> © Padam Karki.
         </p>
       </div>
     </footer>
