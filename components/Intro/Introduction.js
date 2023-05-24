@@ -1,7 +1,7 @@
 import classes from "./Introduction.module.css";
 import Link from "next/link";
 import Image from "next/future/image";
-import padam from "../../assets/padam.png";
+// import padam from "../../assets/padam.png";
 import padam1 from "../../assets/padam.jpg";
 
 const Introduction = () => {

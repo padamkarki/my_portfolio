@@ -1,29 +1,60 @@
-import Logos from "./Logos";
+import React, { useState, useEffect } from "react";
 
 import Link from "next/link";
-import Image from "next/future/image";
 import { useRouter } from "next/router";
 
+import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
+import Logos from "./Logos";
 import classes from "./MainNavigation.module.css";
-import github from "../../assets/github.svg";
-import linkedin from "../../assets/linkedin.svg";
-import instagram from "../../assets/instagram.svg";
-import youtube from "../../assets/youtube.svg";
 
-function MainNavigation() {
+const MainNavigation = () => {
   const router = useRouter();
+  const [isScreenSmall, setIsScreenSmall] = useState(false);
+  const [isNavopen, setIsNavopen] = useState(false);
+
+  const handleNavOpen = () => {
+    setIsNavopen(!isNavopen);
+  };
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 767) {
+        setIsScreenSmall(false);
+      } else {
+        setIsScreenSmall(true);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const toggleNav = () => {
+    setIsScreenSmall(!isScreenSmall);
+  };
+
   return (
     <header>
-      <nav className={classes.nav}>
-        {/* <div className={classes.logo}>
-          <Link href="/">Portfolio</Link>
-          TODO: Fix the layout; Temporarily removed the logo as it was overlapping on Home
-        </div> */}
-        <div>
+      <div onClick={toggleNav} className={classes.hamburger}>
+        {isScreenSmall && <MenuIcon />}
+      </div>
+      <nav className={isScreenSmall ? classes.navSmall : classes.nav}>
+        {!isScreenSmall && ( // <-- Updated condition
           <ul className={classes.navlinks}>
+            <div onClick={toggleNav} className={classes.closeIcon}>
+              <CloseIcon />
+            </div>
             <li>
               <Link href="/">
-                <a className={router.pathname == "/" ? classes.active : ""}>
+                <a
+                  className={router.pathname == "/" ? classes.active : ""}
+                  onClick={handleNavOpen}
+                >
                   Home
                 </a>
               </Link>
@@ -34,6 +65,7 @@ function MainNavigation() {
                   className={
                     router.pathname == "/projects" ? classes.active : ""
                   }
+                  onClick={handleNavOpen}
                 >
                   Projects
                 </a>
@@ -41,7 +73,10 @@ function MainNavigation() {
             </li>
             <li>
               <Link href="/blog">
-                <a className={router.pathname == "/blog" ? classes.active : ""}>
+                <a
+                  className={router.pathname == "/blog" ? classes.active : ""}
+                  onClick={handleNavOpen}
+                >
                   Blog
                 </a>
               </Link>
@@ -50,17 +85,18 @@ function MainNavigation() {
               <Link href="/about">
                 <a
                   className={router.pathname == "/about" ? classes.active : ""}
+                  onClick={handleNavOpen}
                 >
                   About
                 </a>
               </Link>
             </li>
           </ul>
-        </div>
+        )}
         <Logos />
       </nav>
     </header>
   );
-}
+};
 
 export default MainNavigation;

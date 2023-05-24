@@ -39,12 +39,12 @@
 .hero_desc {
   margin-bottom: 0;
   font-size: 18px;
-  line-height: 1.6;
+  /* line-height: 1.6; */
   padding-bottom: 40px;
 }
 
 .btn {
-  width: 40%;
+  width: 43%;
   font-size: 18px;
   padding: 15px 30px;
   font-weight: 700;
@@ -74,12 +74,11 @@
 }
 
 /*--------------------------Media Query------------------------------------------------------------------------------------------*/
-@media (max-width: 640px) {
-  /* Your styles for screens up to 640px here */
+@media (max-width: 768px) {
   .row {
     font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
     display: block;
-    padding-bottom: 0;
+    padding: 0;
     align-items: center;
   }
 
@@ -90,14 +89,27 @@
   .column_right {
     flex: center;
   }
+  .hero_title {
+    font-size: 30px;
+    margin-bottom: 24px;
+    font-weight: 900;
+    line-height: 1.2;
+  }
+  .hero_desc {
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    text-align: justify;
+  }
   .img {
     width: 100%;
-    height: 100vh;
+    height: 15rem;
     float: none;
     object-fit: cover;
-    object-position: 100% 10%;
+    object-position: 100% 25%;
     overflow: hidden;
-    border-radius: 50px;
+    border-radius: 20px;
     box-shadow: 0 100px 80px rgb(20 149 167 / 7%),
       0 41.7776px 33.4221px rgb(20 149 167 / 5%),
       0 22.3363px 17.869px rgb(20 149 167 / 4%),
@@ -107,7 +119,7 @@
   }
   .btn {
     font-size: 18px;
-    padding: 15px 30px;
+    padding: 20px 8px;
     font-weight: 700;
     display: inline-block;
     flex: 1 1 auto;
