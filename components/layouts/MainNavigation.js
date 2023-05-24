@@ -15,6 +15,7 @@ const MainNavigation = () => {
 
   const handleNavOpen = () => {
     setIsNavopen(!isNavopen);
+    setIsScreenSmall(!isScreenSmall);
   };
 
   useEffect(() => {
