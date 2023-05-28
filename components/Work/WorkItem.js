@@ -12,7 +12,7 @@ const WorkItem = (props) => {
   }
   return (
     <>
-      <button onClick={showDetailHandler} className={classes.card_btn}>
+      <div onClick={showDetailHandler} className={classes.card_btn}>
         <Card className={classes.card}>
           <Image
             className={classes.work_img}
@@ -20,7 +20,7 @@ const WorkItem = (props) => {
             src={props.img}
             alt={props.imgAlt}
             // width={500}
-            height={380}
+            // height={380}
           ></Image>
           <div className={classes.content}>
             {props.imgInfo?.length > 45
@@ -28,7 +28,7 @@ const WorkItem = (props) => {
               : props.imgInfo}
           </div>
         </Card>
-      </button>
+      </div>
     </>
   );
 };

@@ -17,7 +17,7 @@ export const projects = [
     id: "little_lemmon",
     img: Little_lemon,
     imgAlt: "Website link",
-    imgInfo: "Little Lemon Restaurant Reservation App",
+    imgInfo: "Restaurant Reservation App",
     description:
       "This React.js-powered restaurant reservation app allows users to effortlessly book their desired date and view real-time availability for booking times, leading them to a successful reservation confirmation.",
     url: "https://little-lemon-8a62a.web.app/",
