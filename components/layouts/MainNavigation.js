@@ -75,6 +75,16 @@ const MainNavigation = () => {
               </Link>
             </li>
             <li>
+              <Link href="/imdb">
+                <a
+                  className={router.pathname == "/imdb" ? classes.active : ""}
+                  onClick={handleNavOpen}
+                >
+                  IMDb
+                </a>
+              </Link>
+            </li>
+            <li>
               <Link href="/blog">
                 <a
                   className={router.pathname == "/blog" ? classes.active : ""}

@@ -18,6 +18,9 @@ const Footer = () => {
             <Link href="/projects">Projects</Link>
           </li>
           <li>
+            <Link href="/imdb">IMDb</Link>
+          </li>
+          <li>
             <Link href="/blog">Blog</Link>
           </li>
           <li>

@@ -1,7 +1,6 @@
 import WorkDescription from "../../components/Work/WorkDescription";
 import WorkList from "../../components/Work/WorkList";
 import classes from "./projects.module.css";
-// import style from "../../components/Work/Work.module.css";
 import Form from "../../components/Form/Form";
 import HeroTitle from "../../components/UI/HeroTitle";
 import HeroDesc from "../../components/UI/HeroDesc";

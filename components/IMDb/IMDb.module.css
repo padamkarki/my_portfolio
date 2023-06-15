@@ -1,0 +1,89 @@
+.body {
+  padding-top: 96px;
+}
+
+.h2_hero_title {
+  color: #110e38;
+  font-size: 35px;
+  margin-bottom: 24px;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.h2_hero_desc {
+  max-width: 32%;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.h2_hero_desc2 {
+  max-width: 40%;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0px auto;
+}
+
+@media only screen and (min-width: 1200px) {
+  .imdb_container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 3%;
+    padding: 20px 0;
+    overflow: visible;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .imdb_container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2%;
+    padding: 20px 0;
+    overflow: visible;
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .imdb_container {
+    display: block;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    overflow: visible;
+    justify-content: space-between;
+  }
+}
+
+.button {
+  margin: 5%;
+  text-align: center;
+}
+
+.btn_center {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.btn {
+  font-size: 18px;
+  padding: 15px 50px;
+  font-weight: 700;
+  transition: 0.3s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 18px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-4 {
+  background-image: linear-gradient(90deg, #1495a7 0, #003687 167%);
+}
