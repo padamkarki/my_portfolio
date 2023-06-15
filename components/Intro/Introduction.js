@@ -11,10 +11,10 @@ const Introduction = () => {
         <h1 className={classes.hero_title}>Hi there, I am Padam Karki</h1>
         <p className={classes.hero_desc}>
           <strong>Frontend Developer</strong> and{" "}
-          <strong>Digital Artist</strong> from India. I love creating amazing
-          visuals, Amazing websites as a Frontend Engineer and Amazing VFX as a
-          VFX Artist. When I am not designing sites, I like to make videos,
-          listen to songs and eat like a pro - foodie.
+          <strong>Digital Artist</strong>, blending creativity and code to
+          create captivating user experiences. With an eye for aesthetics and a
+          passion for problem-solving, I excel in crafting visually stunning
+          websites that seamlessly blend form and function.
         </p>
         <a
           className={`${classes.btn} ${classes["btn-4"]}`}

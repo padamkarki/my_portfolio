@@ -1,8 +1,8 @@
 const WorkDescription = () => {
   return (
     <p>
-      I show only my best works built completely with passion, simplicity, and
-      creativity!
+      My frontend projects, encompassing a wide range of visually captivating
+      and user-friendly websites.
     </p>
   );
 };
