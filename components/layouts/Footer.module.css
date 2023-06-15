@@ -38,9 +38,9 @@
   color: rgb(205, 205, 205);
 }
 
-/* .logos {
-  scale: 1.4;
-  margin-left: 6%;
-  display: flex;
-  justify-content: space-around;
-} */
+@media only screen and (max-width: 768px) {
+  .footer li {
+    display: flex;
+    padding: 0 2%;
+  }
+}
