@@ -15,7 +15,7 @@ const ProjectsPage = () => {
         </HeroDesc>
       </div>
       <WorkList />
-      <Form />
+      {/* <Form /> */}
     </>
   );
 };

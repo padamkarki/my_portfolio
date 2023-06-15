@@ -16,7 +16,7 @@ const BlogPage = () => {
         </HeroDesc>
       </div>
       <BlogList />
-      <Form />
+      {/* <Form /> */}
     </>
   );
 };
