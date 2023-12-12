@@ -20,6 +20,7 @@ const BlogItem = (props) => {
               className={classes.blog_img}
               src={props.img}
               alt={props.imgAlt}
+              width={250}
               height={250}
             ></Image>
           </div>
