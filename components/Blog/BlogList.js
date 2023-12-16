@@ -6,6 +6,7 @@ import classes from "./Blog.module.css";
 
 const BlogList = () => {
   const [blogs, setBlogs] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const fetchBlogs = async () => {
@@ -30,9 +31,14 @@ const BlogList = () => {
         });
       });
       setBlogs(loadedBlogs);
+      setIsLoading(false);
     };
     fetchBlogs();
   }, []);
+
+  if (isLoading) {
+    return <div className={classes.loader}></div>;
+  }
 
   return (
     <>
