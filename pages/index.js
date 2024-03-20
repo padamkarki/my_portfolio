@@ -15,7 +15,7 @@ const HomePage = () => {
       <Head>
         <title>Portfolio - Padam Karki</title>
         <meta name="description" content={desc} />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="../public/favicon.ico" sizes="any" />
 
         <meta property="og:title" content="Padam's Portfolio" />
         <meta property="og:description" content={desc} />
