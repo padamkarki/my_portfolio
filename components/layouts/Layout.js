@@ -1,10 +1,13 @@
-import MainNavigation from "./MainNavigation";
 import classes from "./Layout.module.css";
 import Footer from "./Footer";
+import Head from "next/head";
 
 const Layout = (props) => {
   return (
     <div>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <main className={classes.main}>{props.children}</main>
       <Footer />
     </div>
