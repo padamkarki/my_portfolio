@@ -3,10 +3,23 @@ import BlogList from "../../components/Blog/BlogList";
 import classes from "./projects.module.css";
 import HeroTitle from "../../components/UI/HeroTitle";
 import HeroDesc from "../../components/UI/HeroDesc";
+import Head from "next/head";
 
 const BlogPage = () => {
+  const desc =
+    "Welcome to my blog page featuring a collection of YouTube videos. Explore a variety of engaging content, ranging from informative tutorials to entertaining vlogs. Join me on this visual journey filled with insights, entertainment, and inspiration.";
   return (
     <>
+      <Head>
+        <title>Blogs - Padam Karki</title>
+        <meta name="description" content={desc} />
+        <meta property="og:title" content="Padam's Blogs" />
+        <meta property="og:description" content={desc} />
+        <meta
+          property="og:url"
+          content="https://padamkarki.github.io/my_portfolio/blog"
+        />
+      </Head>
       <div className={classes.center}>
         <HeroTitle>Blog</HeroTitle>
         <HeroDesc>

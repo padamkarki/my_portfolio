@@ -1,6 +1,7 @@
 import WorkDetail from "../../../components/Work/WorkDetail";
 import { projects } from "../../../components/Work/workData";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 const WorkDetails = () => {
   const router = useRouter();
@@ -15,6 +16,12 @@ const WorkDetails = () => {
   // Render the WorkDetail component if a matching project is found
   return (
     <>
+      <Head>
+        <title>{project.imgInfo}</title>
+        <meta name="description" content={project.description} />
+        <meta property="og:title" content={project.imgInfo} />
+        <meta property="og:description" content={project.description} />
+      </Head>
       {project && (
         <WorkDetail
           imgInfo={project.imgInfo}
