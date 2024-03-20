@@ -13,7 +13,6 @@ const WorkDetails = () => {
   // Find the project based on the extracted project ID
   const project = projects.find((element) => element.id === projectId);
 
-  // Render the WorkDetail component if a matching project is found
   return (
     <>
       {project && (
