@@ -2,8 +2,7 @@ import { Fragment } from "react";
 import classes from "./Work.module.css";
 import WorkTitle from "./WorkTitle";
 import WorkDescription from "./WorkDescription";
-import WorkList from "./WorkList";
-
+import WorkListHome from "./WorkListHome";
 const Work = () => {
   return (
     <Fragment>
@@ -12,7 +11,7 @@ const Work = () => {
         <div className={classes.h2_hero_desc}>
           <WorkDescription />
         </div>
-        <WorkList />
+        <WorkListHome />
       </section>
     </Fragment>
   );
