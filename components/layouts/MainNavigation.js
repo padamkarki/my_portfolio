@@ -85,12 +85,12 @@ const MainNavigation = () => {
               </Link>
             </li>
             <li>
-              <Link href="/blog">
+              <Link href="/vlog">
                 <a
-                  className={router.pathname == "/blog" ? classes.active : ""}
+                  className={router.pathname == "/vlog" ? classes.active : ""}
                   onClick={handleNavOpen}
                 >
-                  Blog
+                  Vlog
                 </a>
               </Link>
             </li>

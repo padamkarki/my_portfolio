@@ -11,17 +11,17 @@ const BlogPage = () => {
   return (
     <>
       <Head>
-        <title>Blogs - Padam Karki</title>
+        <title>Vlogs - Padam Karki</title>
         <meta name="description" content={desc} />
-        <meta property="og:title" content="Padam's Blogs" />
+        <meta property="og:title" content="Padam's Vlogs" />
         <meta property="og:description" content={desc} />
         <meta
           property="og:url"
-          content="https://padamkarki.github.io/my_portfolio/blog"
+          content="https://padamkarki.github.io/my_portfolio/vlog"
         />
       </Head>
       <div className={classes.center}>
-        <HeroTitle>Blog</HeroTitle>
+        <HeroTitle>Vlog</HeroTitle>
         <HeroDesc>
           <BlogDescription />
         </HeroDesc>
