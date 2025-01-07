@@ -16,9 +16,11 @@ const About = () => {
         </p>
         <div className={classes.about_text}>
           <div>
-            Learning to write programs stretches your mind, and helps you think
-            better, creates a way of thinking about things that I think is
-            helpful in all domains.
+            Welcome! I’m a web developer with a background in visual effects,
+            passionate about crafting modern, user-friendly applications.
+            Skilled in React.js, Next.js, and Python, I’m ITPEC and
+            Meta-certified. Explore my projects, from full-stack apps to dynamic
+            SPAs
           </div>
           <ul>
             <li>

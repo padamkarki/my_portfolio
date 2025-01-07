@@ -28,7 +28,7 @@ const HomePage = () => {
       <Work />
       <Reviews />
       <Blog />
-      <Form />
+      {/* <Form /> */}
     </Fragment>
   );
 };
