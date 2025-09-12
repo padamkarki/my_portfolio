@@ -36,11 +36,14 @@
 
 # .github/workflows/build-and-deploy.yml
 # ----------------------------------------------------------------------------------------------------
+# .github/workflows/build-and-deploy.yml
+
 name: Build and Deploy Next.js to GitHub Pages
 
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -50,9 +53,8 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      # 1. Checkout the repository
+      # 1. Checkout repository
       - name: Checkout code
         uses: actions/checkout@v3
 
@@ -63,8 +65,8 @@ jobs:
           node-version: 16
           cache: npm
 
-      # 3. Install dependencies and build
-      - name: Install dependencies & build
+      # 3. Install dependencies & build
+      - name: Install dependencies & Build
         run: |
           npm ci
           npm run build
