@@ -6,7 +6,7 @@ const Layout = (props) => {
   return (
     <div>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/my_portfolio/favicon.ico" />
       </Head>
       <main className={classes.main}>{props.children}</main>
       <Footer />
