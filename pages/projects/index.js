@@ -21,7 +21,7 @@ const ProjectsPage = () => {
         />
       </Head>
       <div className={classes.center}>
-        <HeroTitle>My works</HeroTitle>
+        <HeroTitle>Website Projects</HeroTitle>
         <HeroDesc>
           <WorkDescription />
         </HeroDesc>

@@ -17,9 +17,20 @@ const Introduction = () => {
           websites that seamlessly blend form and function.
         </p> */}
         <p className={classes.hero_desc}>
-          Welcome to my portfolio! I am a web developer with a creative edge
-          from my background in visual effects, passionate about crafting
-          dynamic, user-friendly applications. Skilled in{" "}
+          Welcome to my portfolio! I’m a{" "}
+          <strong>Video editor and VFX artist</strong> with a creative edge from
+          my VFX background, skilled in storytelling, cinematic editing, and
+          visual effects.
+          <p>
+            I’m also a <strong>Front-end Developer</strong>, proficient in
+            React.js, Next.js, and modern web design, and certified with Meta
+            Front-End Developer and ITPEC-FE. I create compelling videos and
+            build interactive web experiences, combining creativity with
+            technical skill
+          </p>
+          {/* technical skill. Welcome to my portfolio! I am a web developer with a
+          creative edge from my background in visual effects, passionate about
+          crafting dynamic, user-friendly applications. Skilled in{" "}
           <strong>React.js, Next.js, JavaScript, and Python</strong>{" "}
           <p>
             I hold the <strong>ITPEC</strong> - Fundamental Information
@@ -32,7 +43,7 @@ const Introduction = () => {
             apps, my projects highlight my skills in RESTful APIs, state
             management, and real-time updates. Lets connect and create something
             extraordinary together!
-          </p>
+          </p> */}
         </p>
         <a
           className={`${classes.btn} ${classes["btn-4"]}`}
@@ -42,9 +53,9 @@ const Introduction = () => {
         >
           Get in touch
         </a>
-        <Link href="/projects">
+        {/* <Link href="/projects">
           <a className={`${classes.btn} ${classes["btn-4"]}`}>See my work</a>
-        </Link>
+        </Link> */}
       </div>
       <div className={classes.column_right}>
         <Image

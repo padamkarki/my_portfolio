@@ -21,7 +21,7 @@ const BlogPage = () => {
         />
       </Head>
       <div className={classes.center}>
-        <HeroTitle>Vlog</HeroTitle>
+        <HeroTitle>Video Projects</HeroTitle>
         <HeroDesc>
           <BlogDescription />
         </HeroDesc>

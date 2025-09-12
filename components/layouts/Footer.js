@@ -15,14 +15,15 @@ const Footer = () => {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/projects">Projects</Link>
+            <Link href="/blog">Video Projects</Link>
+          </li>
+          <li>
+            <Link href="/projects">Frontend Projects</Link>
           </li>
           <li>
             <Link href="/imdb">IMDb</Link>
           </li>
-          <li>
-            <Link href="/blog">Blog</Link>
-          </li>
+
           <li>
             <Link href="/about">About</Link>
           </li>
@@ -30,7 +31,7 @@ const Footer = () => {
       </div>
       <div className={classes.copyright}>
         <p>
-          <span className={classes.year}>2023 </span> © Padam Karki.
+          <span className={classes.year}>2025 </span> © Padam Karki.
         </p>
       </div>
     </footer>

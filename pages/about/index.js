@@ -17,7 +17,7 @@ const AboutPage = () => {
         />
       </Head>
       <About />
-      <Form />
+      {/* <Form /> */}
     </>
   );
 };

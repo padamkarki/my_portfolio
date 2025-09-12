@@ -25,9 +25,9 @@ const HomePage = () => {
         <meta property="og:type" content="website" />
       </Head>
       <Introduction />
+      <Blog />
       <Work />
       <Reviews />
-      <Blog />
       {/* <Form /> */}
     </Fragment>
   );

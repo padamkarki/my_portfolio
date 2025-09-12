@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import BlogItem from "./BlogItem";
 import classes from "./Blog.module.css";
-import { blogs } from "../../components/Blog/blogData";
+// import { blogs } from "../../components/Blog/blogData";
 
 const BlogListHome = () => {
   const [blogs, setBlogs] = useState([]);

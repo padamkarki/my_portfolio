@@ -12,15 +12,14 @@ const About = () => {
         <HeroTitle className={classes.about_heading}>About</HeroTitle>
 
         <p className={`${classes.about_text} ${classes.bold}`}>
-          Front-End Developer | Digital Artist
+          Video Editor | Front-End Developer | Digital Artist
         </p>
         <div className={classes.about_text}>
           <div>
-            Welcome! I’m a web developer with a background in visual effects,
-            passionate about crafting modern, user-friendly applications.
-            Skilled in React.js, Next.js, and Python, I’m ITPEC and
-            Meta-certified. Explore my projects, from full-stack apps to dynamic
-            SPAs
+            Welcome! I’m a video editor and VFX artist, as well as a web
+            developer. I’m passionate about bringing stories to life through
+            videos and creating engaging, user-friendly websites. Skilled in
+            Adobe Premiere Pro, After Effects, React.js, Next.js, and Python.
           </div>
           <ul>
             <li>

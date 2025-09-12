@@ -63,6 +63,16 @@ const MainNavigation = () => {
               </Link>
             </li>
             <li>
+              <Link href="/vlog">
+                <a
+                  className={router.pathname == "/vlog" ? classes.active : ""}
+                  onClick={handleNavOpen}
+                >
+                  Video Projects
+                </a>
+              </Link>
+            </li>
+            <li>
               <Link href="/projects">
                 <a
                   className={
@@ -70,7 +80,7 @@ const MainNavigation = () => {
                   }
                   onClick={handleNavOpen}
                 >
-                  Projects
+                  Web Projects
                 </a>
               </Link>
             </li>
@@ -84,16 +94,7 @@ const MainNavigation = () => {
                 </a>
               </Link>
             </li>
-            <li>
-              <Link href="/vlog">
-                <a
-                  className={router.pathname == "/vlog" ? classes.active : ""}
-                  onClick={handleNavOpen}
-                >
-                  Vlog
-                </a>
-              </Link>
-            </li>
+
             <li>
               <Link href="/about">
                 <a
