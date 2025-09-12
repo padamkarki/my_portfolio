@@ -18,7 +18,7 @@ const Blog = () => {
         <BlogListHome />
         <div className={style.btn_center}>
           <Link href="/blog">
-            <a className={`${style.btn} ${style["btn-4"]}`}>View All</a>
+            <a className={`${style.btn} ${style["btn-4"]}`}>View Alll</a>
           </Link>
         </div>
       </section>
