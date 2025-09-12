@@ -1,90 +1,35 @@
-# # .github/workflows/build-and-deploy.yml
-
-# name: Node.js CI
-
-# on:
-#   push:
-#     branches: [ main ]
-
-# jobs:
-#   build:
-
-#     runs-on: ubuntu-latest
-
-#     steps:
-#       - uses: actions/checkout@v2
-
-#       - uses: actions/setup-node@v2
-#         with:
-#           # update the Node version to meet your needs
-#           node-version: 16
-#           cache: npm
-
-#       - name: Build
-#         run: |
-#           npm ci
-#           npm run build
-#           npm run export
-#           touch out/.nojekyll
-
-#       - name: Deploy
-#           # https://github.com/JamesIves/github-pages-deploy-action
-#           uses: JamesIves/github-pages-deploy-action@v4
-#           with:
-#             branch: gh-pages
-#             folder: out
-
-# .github/workflows/build-and-deploy.yml
-# ----------------------------------------------------------------------------------------------------
 # .github/workflows/build-and-deploy.yml
 
-name: Build and Deploy Next.js to GitHub Pages
+name: Node.js CI
 
 on:
   push:
     branches: [main]
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-    steps:
-      # 1. Checkout repository
-      - name: Checkout code
-        uses: actions/checkout@v3
 
-      # 2. Setup Node.js
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
         with:
+          # update the Node version to meet your needs
           node-version: 16
           cache: npm
 
-      # 3. Install dependencies & build
-      - name: Install dependencies & Build
+      - name: Build
         run: |
           npm ci
           npm run build
           npm run export
           touch out/.nojekyll
 
-      # 4. Upload static build folder as artifact
-      - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v2
+      - name:
+          Deploy
+          # https://github.com/JamesIves/github-pages-deploy-action
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          path: out
-
-  deploy:
-    needs: build-and-deploy
-    runs-on: ubuntu-latest
-    steps:
-      # 5. Deploy artifact to GitHub Pages
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: out
